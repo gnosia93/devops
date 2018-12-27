@@ -31,8 +31,9 @@ RUN apt-get update && \
 ```
 
 
-### Elastic Search Docker Image ###
+### Elastic Search / Kibana 설치 ###
 https://hub.docker.com/_/elasticsearch
+https://hub.docker.com/_/kibana
 ```
 startup@startup:~$ docker pull elasticsearch:6.5.4
 startup@startup:~$ docker network create devops
