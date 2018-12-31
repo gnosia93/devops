@@ -1,3 +1,8 @@
+## 카산드라 ##
+[설치](https://github.com/gnosia93/devops/blob/master/cassandra.md)
+
+
+
 ## Docker ##
 
 ### Docker Log 관리 ###
