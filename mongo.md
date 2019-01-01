@@ -51,4 +51,22 @@ sudo systemctl status mongodb
 sudo systemctl enable mongodb
 
 
+## Admin ##
+
+### 유저생성 ###
+mongo 클라이언트를 실행하여 admin DB 에 접속한 후, root 계정을 생성한다. 
+
+```
+startup@startup:/etc/systemd/system$ mongo
+MongoDB shell version: 3.2.22
+connecting to: test
+> use admin
+switched to db admin
+> db.createUser ({user:'root', pwd:'root', roles:["root"]})
+Successfully added user: { "user" : "root", "roles" : [ "root" ] }
+> quit()
+
+```
+
+
 
