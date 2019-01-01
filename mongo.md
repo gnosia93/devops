@@ -22,7 +22,12 @@ sudo service mongod status   # 상태보기
 
 ## 서비스 등록 ##
 
-sudo nano /etc/systemd/system/mongodb.service
+위와 같이 설치 후 service 커맨드를 이용하여 mongod 를 기동 및 정지 할 수 있다. 
+
+이와 관련하여 문제가 발생하는 경우 아래와 같은 방식으로 조치한다. 
+
+/etc/systemd/system/mongodb.service 의 내용을 아래와 같이 만든다. 
+
 ```
 [Unit]
 Description=High-performance, schema-free document-oriented database
@@ -37,6 +42,7 @@ WantedBy=multi-user.target
 
 ```
 
+아래 명령어 들을 이용하여 시작, 상태체크 및 서비스 등록한다. 
 
 sudo systemctl start mongodb
 
