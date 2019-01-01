@@ -68,13 +68,18 @@ Successfully added user: { "user" : "root", "roles" : [ "root" ] }
 
 ```
 
-### DB 생성 및 DB 유저 새성 ###
+### DB 및 유저 생성 ###
 
-```
 $ mongo -u "root" -p "root" --authenticationDatabase "admin"
 
+```
+> use sample
+switched to db sample
+>  db.createUser({user:"sample", pwd:"sample", roles:["dbOwner"]})
+Successfully added user: { "user" : "sample", "roles" : [ "dbOwner" ] }
 
 ```
+mongo DB는 use 명령을 사용하는 경우 해당 DB 가 생성된다. 
 
 
 
