@@ -53,7 +53,7 @@ sudo systemctl enable mongodb
 
 ## Admin ##
 
-### 유저생성 ###
+### root 계정 생성 ###
 mongo 클라이언트를 실행하여 admin DB 에 접속한 후, root 계정을 생성한다. 
 
 ```
@@ -65,6 +65,14 @@ switched to db admin
 > db.createUser ({user:'root', pwd:'root', roles:["root"]})
 Successfully added user: { "user" : "root", "roles" : [ "root" ] }
 > quit()
+
+```
+
+### DB 생성 및 DB 유저 새성 ###
+
+```
+$ mongo -u "root" -p "root" --authenticationDatabase "admin"
+
 
 ```
 
