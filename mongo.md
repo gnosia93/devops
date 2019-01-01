@@ -81,5 +81,42 @@ Successfully added user: { "user" : "sample", "roles" : [ "dbOwner" ] }
 ```
 mongo DB는 use 명령을 사용하는 경우 해당 DB 가 생성된다. 
 
+### 권한 부여 ###
+```
+> db.getUsers()
+[
+        {
+                "_id" : "sample.sample",
+                "user" : "sample",
+                "db" : "sample",
+                "roles" : [
+                        {
+                                "role" : "dbOwner",
+                                "db" : "sample"
+                        }
+                ]
+        }
+]
+> db.grantRolesToUser( "sample", [{role:"readWrite", db:"sample"}] )
+> db.getUsers()
+[
+        {
+                "_id" : "sample.sample",
+                "user" : "sample",
+                "db" : "sample",
+                "roles" : [
+                        {
+                                "role" : "readWrite",
+                                "db" : "sample"
+                        },
+                        {
+                                "role" : "dbOwner",
+                                "db" : "sample"
+                        }
+                ]
+        }
+]
+>
+```
 
 
