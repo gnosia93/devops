@@ -1,14 +1,9 @@
-## 카산드라 ##
-[설치](https://github.com/gnosia93/devops/blob/master/cassandra.md)
-
-
-#  #
+## Kubernetes ##
 https://github.com/gnosia93/devops/blob/master/kubernetes.md
-
 
 ## Docker ##
 
-### Docker Log 관리 ###
+#### ocker Log 관리 ####
 
 아래는 docker 컨테이들의 기본 로그 파일 위치이다. 
 
@@ -17,10 +12,9 @@ root@startup:/var/lib/docker/containers# pwd
 /var/lib/docker/containers
 
 ```
-
 http://egloos.zum.com/mcchae/v/11259352
 
-### ORACLE JDK 받는 방법 ###
+#### ORACLE JDK 받는 방법 ####
 ```
 FROM ubuntu:16.04
 
@@ -38,7 +32,7 @@ RUN apt-get update && \
 ```
 
 
-### Elastic Search / Kibana 설치 ###
+#### Elastic Search / Kibana 설치 ####
 https://hub.docker.com/_/elasticsearch
 https://hub.docker.com/_/kibana
 ```
