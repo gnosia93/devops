@@ -23,3 +23,8 @@ as root:
 # MicroK8s #
 https://microk8s.io/#quick-start
 
+### 대시보드 ###
+```
+kubectl apply -f  https://github.com/kubernetes/dashboard/blob/master/src/deploy/recommended/kubernetes-dashboard.yaml 
+
+```
