@@ -2,6 +2,9 @@
 [설치](https://github.com/gnosia93/devops/blob/master/cassandra.md)
 
 
+# KUBENETES #
+https://github.com/gnosia93/devops/blob/master/kubernetes.md
+
 
 ## Docker ##
 
@@ -16,7 +19,6 @@ root@startup:/var/lib/docker/containers# pwd
 ```
 
 http://egloos.zum.com/mcchae/v/11259352
-
 
 ### ORACLE JDK 받는 방법 ###
 ```
