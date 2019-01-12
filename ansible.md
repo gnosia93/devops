@@ -307,6 +307,60 @@ ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=absent autoremove=yes' 
 
 
 ## PlayBook ##
+
+## playbook 기초 ##
+
+```
+- hosts: web
+  gather_facts: yes
+  remote_user: ansible
+  become: yes
+#  ask_become_pass : true             ask-become-pass 는 play 에 사용할 수 없는 키워드 이다. 
+
+  tasks:
+     - name: install nginx to web
+       apt :
+          name: nginx
+          state: present
+     - name: start nginx
+       service :
+          name: nginx
+          state: started
+                   
+          
+```
+
+
+-K 는 꼭 대문자로 써줘야 한다. 
+```
+startup@startup:~/ansible/nginx$ ansible-playbook nginx_install.yml -K
+SUDO password:
+
+PLAY [web] *************************************************************************************************************************
+
+TASK [Gathering Facts] *************************************************************************************************************
+ok: [192.168.29.223]
+ok: [192.168.29.145]
+ok: [192.168.29.142]
+
+TASK [install nginx to web] ********************************************************************************************************
+ok: [192.168.29.142]
+ok: [192.168.29.145]
+ok: [192.168.29.223]
+
+TASK [start nginx] *****************************************************************************************************************
+ok: [192.168.29.142]
+ok: [192.168.29.145]
+ok: [192.168.29.223]
+
+PLAY RECAP *************************************************************************************************************************
+192.168.29.142             : ok=3    changed=0    unreachable=0    failed=0
+192.168.29.145             : ok=3    changed=0    unreachable=0    failed=0
+192.168.29.223             : ok=3    changed=0    unreachable=0    failed=0
+
+
+```
+
 ```
 조건분기.
 https://sysnet4admin.blogspot.com/2017/10/ansible-nginx_27.html#.XDlVUVwzYuU
