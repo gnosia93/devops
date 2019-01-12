@@ -1,4 +1,4 @@
-## IP 수동 설정 ##
+## STATIC IP 설정 ##
 
 /etc/network/interfaces
 ```
