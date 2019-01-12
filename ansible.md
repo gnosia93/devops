@@ -223,6 +223,18 @@ SUDO password:
 
 ```
 
+동일한 명령어를 다시 실행하면 "changed" 는 false 로 나타난다. (ansible 멱등성)
+```
+startup@startup:~$ ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=present update_cache=true' -u ansible
+SUDO password:
+192.168.29.223 | SUCCESS => {
+    "cache_update_time": 1547265437,
+    "cache_updated": true,
+    "changed": false
+}
+
+```
+
 
 
 ## PlayBook ##
