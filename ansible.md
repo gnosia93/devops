@@ -149,7 +149,7 @@ $ ansible 192.168.29.223 -m setup -u ansible
 ```
 
 ## Adhoc ##
-### nginx 설치 ###
+### 1. nginx 설치 ###
 ```
 startup@startup:~$ ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=present update_cache=true' -u ansible
 SUDO password:
@@ -235,7 +235,7 @@ SUDO password:
 
 ```
 
-### nginx 인스톨 여부 체크 ###
+### 2. nginx 인스톨 / 동작 여부 확인 ###
 
 rc = 0 이다. 
 
@@ -291,12 +291,12 @@ startup@startup:~$
 
 ```
 
-### nginx 정지 ###
+### 3. nginx 정지 ###
 ```
 ansible 192.168.29.223 -b -K -m service -a 'name=nginx state=stopped' -u ansible
 ```
 
-### nginx 삭제 ###
+### 4. nginx 삭제 ###
 
 삭제는 state 값으로 조정하고, autoremove 는 의존관계를 제거하는 옵션이다. 
 
