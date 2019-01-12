@@ -1,6 +1,12 @@
+## Linux Admin ##
+
+[Centos]((https://github.com/gnosia93/devops/blob/master/centos.md))
+
+[Ubuntu]()
+
 ## Ansible ##
 
-[Ansible Tutorials](https://github.com/gnosia93/devops/blob/master/ansible.md)
+[Setup](https://github.com/gnosia93/devops/blob/master/ansible.md)
 
 [Adhoc](https://github.com/gnosia93/devops/blob/master/ansible-adhoc.md)
 
