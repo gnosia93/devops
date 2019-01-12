@@ -310,25 +310,28 @@ ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=absent autoremove=yes' 
 
 ## playbook 기초 ##
 
-nginx_install.yml 의 내용이다. 
+nginx_install.yml 으로 설치후 nginx 를 stop 하기 위해 notify 하고 있다. 그런데 제대로 동작을 하지 않는다. 
 
 ```
 - hosts: web
   gather_facts: yes
   remote_user: ansible
   become: yes
-#  ask_become_pass : true             ask-become-pass 는 play 에 사용할 수 없는 키워드 이다. 
+#  ask_become_pass : true
 
   tasks:
      - name: install nginx to web
        apt :
           name: nginx
           state: present
-     - name: start nginx
-       service :
+       notify:
+          - stop nginx after install
+
+  handlers:
+     - name: stop nginx after install
+       service:
           name: nginx
-          state: started
-                   
+          state: stopped
           
 ```
 
