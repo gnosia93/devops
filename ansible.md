@@ -80,17 +80,15 @@ and check to make sure that only the key(s) you wanted were added.
 ```
 
 
+## ansible 설치 및 설정 ##
 
-```
-
-## ansible 설정 ##
 ansible.cfg 에서 ssh 설정 변경.
 ```
 # uncomment this to disable SSH key host checking
 host_key_checking = False
 ```
 
-inventory 에 관리 대상 서버 등록.
+인벤토리 파일에 관리 대상 서버 목록 등록
 ```
 $ cd /etc/ansible
 $ cat hosts
@@ -98,8 +96,8 @@ $ cat hosts
 192.168.29.223
 192.168.29.142
 192.168.29.145
-
 ```
+
 
 ## ping 테스트 ##
 
@@ -108,6 +106,7 @@ $ cat hosts
 145 번 서버는 리모트 서버에 ansible 계정이 없거나 pub key 가 복사되지 않아서 발생하는 에러이다.
 
 142 번 서버는 현재 shutdown 되어 있다. 
+
 
 ```
 $ ansible web -m ping -u ansible
