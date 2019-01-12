@@ -235,14 +235,72 @@ SUDO password:
 
 ```
 
+### nginx 인스톨 여부 체크 ###
 
-### nginx 정지 / 삭제 ###
+rc = 0 이다. 
+
+```
+startup@startup:~$ ansible web -b -K -m shell -a 'service nginx status' -u ansible
+SUDO password:
+ [WARNING]: Consider using the service module rather than running service.  If you need to use command because service
+is insufficient you can add warn=False to this command task or set command_warnings=False in ansible.cfg to get rid of
+this message.
+
+192.168.29.223 | CHANGED | rc=0 >>
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: active (running) since 토 2019-01-12 13:31:27 KST; 12min ago
+  Process: 4816 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+  Process: 4812 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+ Main PID: 4819 (nginx)
+   CGroup: /system.slice/nginx.service
+           ├─4819 nginx: master process /usr/sbin/nginx -g daemon on; master_process on
+           ├─4820 nginx: worker process
+           └─4821 nginx: worker process
+
+ 1월 12 13:31:27 ubuntu1 systemd[1]: Starting A high performance web server and a reverse proxy server...
+ 1월 12 13:31:27 ubuntu1 systemd[1]: Started A high performance web server and a reverse proxy server.
+
+192.168.29.145 | CHANGED | rc=0 >>
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: active (running) since 토 2019-01-12 13:31:38 KST; 12min ago
+ Main PID: 4058 (nginx)
+   CGroup: /system.slice/nginx.service
+           ├─4058 nginx: master process /usr/sbin/nginx -g daemon on; master_process on
+           ├─4059 nginx: worker process
+           └─4060 nginx: worker process
+
+ 1월 12 13:31:38 ubuntu2 systemd[1]: Starting A high performance web server and a reverse proxy server...
+ 1월 12 13:31:38 ubuntu2 systemd[1]: Started A high performance web server and a reverse proxy server.
+
+192.168.29.142 | CHANGED | rc=0 >>
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+   Active: active (running) since 토 2019-01-12 13:31:38 KST; 12min ago
+ Main PID: 4042 (nginx)
+   CGroup: /system.slice/nginx.service
+           ├─4042 nginx: master process /usr/sbin/nginx -g daemon on; master_process on
+           ├─4043 nginx: worker process
+           └─4044 nginx: worker process
+
+ 1월 12 13:31:38 ubuntu2 systemd[1]: Starting A high performance web server and a reverse proxy server...
+ 1월 12 13:31:38 ubuntu2 systemd[1]: Started A high performance web server and a reverse proxy server.
+
+startup@startup:~$
+
+```
+
+### nginx 정지###
+```
+ansible 192.168.29.223 -b -K -m service -a 'name=nginx state=stopped' -u ansible
+```
+
+### nginx 삭제 ###
 
 삭제는 state 값으로 조정하고, autoremove 는 의존관계를 제거하는 옵션이다. 
 
 ```
-ansible 192.168.29.223 -b -K -m service -a 'name=nginx state=stopped' -u ansible
-
 ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=absent autoremove=yes' -u ansible
 ```
 
