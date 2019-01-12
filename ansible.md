@@ -62,6 +62,23 @@ startup@startup:~$
 
 ```
 
+### ssh pub key copy ###
+
+리모트 서버에 ssh pub key 를 카피한다. 
+```
+$ which ssh-copy-id
+/usr/bin/ssh-copy-id
+$ ssh-copy-id ansible@192.168.29.223
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/startup/.ssh/id_rsa.pu                            b"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any tha                            t are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it i                            s to install the new keys
+ansible@192.168.29.223's password:
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'ansible@192.168.29.223'"
+and check to make sure that only the key(s) you wanted were added.
+```
 
 
 ## ping ##
