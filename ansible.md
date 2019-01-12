@@ -24,6 +24,15 @@ $ ansible all -m ping
 
 ```
 
+##  ##
+ansible.cfg 에서 ssh 설정 변경.
+```
+# uncomment this to disable SSH key host checking
+host_key_checking = False
+```
+
+
+
 
 ## 우분투에 ssh 설치하기 ##
 ssh 모듈을 설치한 다음 데몬 상태를 확인하고 다시 ping.  이번에는 권한 에러가 발생한다. 
