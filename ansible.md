@@ -83,6 +83,8 @@ and check to make sure that only the key(s) you wanted were added.
 
 ### 4. ping 테스트 ###
 
+-u 옵션을 이용하여 ssh 로 로그인 할 유저를 명시한다. default 는 root 이다. 
+
 145 번 서버는 리모트 서버에 ansible 계정이 없거나 pub key 가 복사되지 않아서 발생하는 에러이다.
 
 142 번 서버는 현재 shutdown 되어 있다. 
