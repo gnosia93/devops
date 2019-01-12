@@ -82,17 +82,6 @@ and check to make sure that only the key(s) you wanted were added.
 
 
 
-
-##  ##
-ansible.cfg 에서 ssh 설정 변경.
-```
-# uncomment this to disable SSH key host checking
-host_key_checking = False
-```
-
-
-
-
 ## 우분투에 ssh 설치하기 ##
 ssh 모듈을 설치한 다음 데몬 상태를 확인하고 다시 ping.  이번에는 권한 에러가 발생한다. 
 
@@ -116,6 +105,24 @@ startup@startup:~/.ssh$ ansible web -m ping
 
 ```
 
+## ansible 설정 ##
+ansible.cfg 에서 ssh 설정 변경.
+```
+# uncomment this to disable SSH key host checking
+host_key_checking = False
+```
+
+inventory 에 관리 대상 서버 등록.
+```
+$ cd /etc/ansible
+$ cat hosts
+[web]
+192.168.29.223
+192.168.29.142
+192.168.29.145
+
+```
+
 ## ping 테스트 ##
 
 -u 옵션을 이용하여 ssh 로 로그인 할 유저를 명시한다. default 는 root 이다. 
@@ -125,7 +132,7 @@ startup@startup:~/.ssh$ ansible web -m ping
 142 번 서버는 현재 shutdown 되어 있다. 
 
 ```
-startup@startup:~$ ansible web -m ping -u ansible
+$ ansible web -m ping -u ansible
 192.168.29.145 | UNREACHABLE! => {
     "changed": false,
     "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).\r\n",
