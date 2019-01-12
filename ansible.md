@@ -310,6 +310,8 @@ ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=absent autoremove=yes' 
 
 ## playbook 기초 ##
 
+nginx_install.yml 의 내용이다. 
+
 ```
 - hosts: web
   gather_facts: yes
