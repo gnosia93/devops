@@ -20,7 +20,22 @@ https://serversforhackers.com/c/an-ansible-tutorial
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
 
 
+### 리모트 유저 생성 ###
+
+관리 대상 서버인 리모트 서버들에 ansible 이라는 유저를 생성한다. 
+
+```
+$ sudo useradd -m -G sudo ansible
+$ passwd ansible
+$ su - ansible
+ansible@ubuntu1:~$ id
+uid=1001(ansible) gid=1001(ansible) 그룹들=1001(ansible),27(sudo)
+```
+
+
 ### ssh-keygen ###
+
+매니지 먼트 서버에 ssh 키를 생성한다. 
 ```
 $ ssh-keygen
 Generating public/private rsa key pair.
