@@ -136,6 +136,26 @@ $ ansible web -m ping -u ansible
 }
 ```
 
+root 유저로 ping 하면 에러가 발생한다. root 는 기본적으로 ssh 설저에서 제외되어 있다. 
+
+```
+startup@startup:/etc/ansible$ ansible api -m ping
+192.168.29.141 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).\r\n",
+    "unreachable": true
+}
+
+startup@startup:/etc/ansible$ ansible api -m ping -u ansible
+192.168.29.141 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+```
+
+
+
+
 ### Reboot ###
 
 ```
