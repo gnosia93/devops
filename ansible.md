@@ -144,10 +144,15 @@ $ ansible 192.168.29.223 -m setup -u ansible
 ## Adhoc 실습 ##
 
 ### nginx 설치 ###
+```
+
+
+```
 
 
 
 ## PlayBook 실습 ##
-
+```
+```
 
 
