@@ -4,6 +4,10 @@ https://www.tutorialspoint.com/ansible/index.htm
 
 https://serversforhackers.com/c/an-ansible-tutorial
 
+https://moonstrike.github.io/ansible/2016/09/09/Ansible-Basics.html
+
+
+
 
 ## Initial Setup ##
 
