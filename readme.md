@@ -1,6 +1,6 @@
 ## Linux Admin ##
 
-[Centos]((https://github.com/gnosia93/devops/blob/master/centos.md))
+[Centos](https://github.com/gnosia93/devops/blob/master/centos.md))
 
 [Ubuntu]()
 
