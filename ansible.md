@@ -291,7 +291,7 @@ startup@startup:~$
 
 ```
 
-### nginx 정지###
+### nginx 정지 ###
 ```
 ansible 192.168.29.223 -b -K -m service -a 'name=nginx state=stopped' -u ansible
 ```
