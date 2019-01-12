@@ -151,7 +151,76 @@ $ ansible 192.168.29.223 -m setup -u ansible
 ## Adhoc ##
 ### nginx 설치 ###
 ```
-11
+startup@startup:~$ ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=present update_cache=true' -u ansible
+SUDO password:
+192.168.29.223 | CHANGED => {
+    "cache_update_time": 1547265344,
+    "cache_updated": true,
+    "changed": true,
+    "stderr": "",
+    "stderr_lines": [],
+    "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nThe following additional packages will be installed:\n  nginx-common nginx-core\nSuggested packages:\n  fcgiwrap nginx-doc\nThe following NEW packages will be installed:\n  nginx nginx-common nginx-core\n0 upgraded, 3 newly installed, 0 to remove and 673 not upgraded.\nNeed to get 459 kB of archives.\nAfter this operation, 1482 kB of additional disk space will be used.\nGet:1 http://kr.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-common all 1.10.3-0ubuntu0.16.04.3 [26.7 kB]\nGet:2 http://kr.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-core amd64 1.10.3-0ubuntu0.16.04.3 [429 kB]\nGet:3 http://kr.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx all 1.10.3-0ubuntu0.16.04.3 [3506 B]\nPreconfiguring packages ...\nFetched 459 kB in 0s (1518 kB/s)\nSelecting previously unselected package nginx-common.\r\n(Reading database ... \r(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r(Reading database ... 75%\r(Reading database ... 80%\r(Reading database ... 85%\r(Reading database ... 90%\r(Reading database ... 95%\r(Reading database ... 100%\r(Reading database ... 181587 files and directories currently installed.)\r\nPreparing to unpack .../nginx-common_1.10.3-0ubuntu0.16.04.3_all.deb ...\r\nUnpacking nginx-common (1.10.3-0ubuntu0.16.04.3) ...\r\nSelecting previously unselected package nginx-core.\r\nPreparing to unpack .../nginx-core_1.10.3-0ubuntu0.16.04.3_amd64.deb ...\r\nUnpacking nginx-core (1.10.3-0ubuntu0.16.04.3) ...\r\nSelecting previously unselected package nginx.\r\nPreparing to unpack .../nginx_1.10.3-0ubuntu0.16.04.3_all.deb ...\r\nUnpacking nginx (1.10.3-0ubuntu0.16.04.3) ...\r\nProcessing triggers for systemd (229-4ubuntu7) ...\r\nProcessing triggers for ureadahead (0.100.0-19) ...\r\nProcessing triggers for ufw (0.35-0ubuntu2) ...\r\nSetting up nginx-common (1.10.3-0ubuntu0.16.04.3) ...\r\nSetting up nginx-core (1.10.3-0ubuntu0.16.04.3) ...\r\nSetting up nginx (1.10.3-0ubuntu0.16.04.3) ...\r\nProcessing triggers for systemd (229-4ubuntu7) ...\r\nProcessing triggers for ureadahead (0.100.0-19) ...\r\nProcessing triggers for ufw (0.35-0ubuntu2) ...\r\n",
+    "stdout_lines": [
+        "Reading package lists...",
+        "Building dependency tree...",
+        "Reading state information...",
+        "The following additional packages will be installed:",
+        "  nginx-common nginx-core",
+        "Suggested packages:",
+        "  fcgiwrap nginx-doc",
+        "The following NEW packages will be installed:",
+        "  nginx nginx-common nginx-core",
+        "0 upgraded, 3 newly installed, 0 to remove and 673 not upgraded.",
+        "Need to get 459 kB of archives.",
+        "After this operation, 1482 kB of additional disk space will be used.",
+        "Get:1 http://kr.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-common all 1.10.3-0ubuntu0.16.04.3 [26.7 kB]",
+        "Get:2 http://kr.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx-core amd64 1.10.3-0ubuntu0.16.04.3 [429 kB]",
+        "Get:3 http://kr.archive.ubuntu.com/ubuntu xenial-updates/main amd64 nginx all 1.10.3-0ubuntu0.16.04.3 [3506 B]",
+        "Preconfiguring packages ...",
+        "Fetched 459 kB in 0s (1518 kB/s)",
+        "Selecting previously unselected package nginx-common.",
+        "(Reading database ... ",
+        "(Reading database ... 5%",
+        "(Reading database ... 10%",
+        "(Reading database ... 15%",
+        "(Reading database ... 20%",
+        "(Reading database ... 25%",
+        "(Reading database ... 30%",
+        "(Reading database ... 35%",
+        "(Reading database ... 40%",
+        "(Reading database ... 45%",
+        "(Reading database ... 50%",
+        "(Reading database ... 55%",
+        "(Reading database ... 60%",
+        "(Reading database ... 65%",
+        "(Reading database ... 70%",
+        "(Reading database ... 75%",
+        "(Reading database ... 80%",
+        "(Reading database ... 85%",
+        "(Reading database ... 90%",
+        "(Reading database ... 95%",
+        "(Reading database ... 100%",
+        "(Reading database ... 181587 files and directories currently installed.)",
+        "Preparing to unpack .../nginx-common_1.10.3-0ubuntu0.16.04.3_all.deb ...",
+        "Unpacking nginx-common (1.10.3-0ubuntu0.16.04.3) ...",
+        "Selecting previously unselected package nginx-core.",
+        "Preparing to unpack .../nginx-core_1.10.3-0ubuntu0.16.04.3_amd64.deb ...",
+        "Unpacking nginx-core (1.10.3-0ubuntu0.16.04.3) ...",
+        "Selecting previously unselected package nginx.",
+        "Preparing to unpack .../nginx_1.10.3-0ubuntu0.16.04.3_all.deb ...",
+        "Unpacking nginx (1.10.3-0ubuntu0.16.04.3) ...",
+        "Processing triggers for systemd (229-4ubuntu7) ...",
+        "Processing triggers for ureadahead (0.100.0-19) ...",
+        "Processing triggers for ufw (0.35-0ubuntu2) ...",
+        "Setting up nginx-common (1.10.3-0ubuntu0.16.04.3) ...",
+        "Setting up nginx-core (1.10.3-0ubuntu0.16.04.3) ...",
+        "Setting up nginx (1.10.3-0ubuntu0.16.04.3) ...",
+        "Processing triggers for systemd (229-4ubuntu7) ...",
+        "Processing triggers for ureadahead (0.100.0-19) ...",
+        "Processing triggers for ufw (0.35-0ubuntu2) ..."
+    ]
+}
+
 ```
 
 
