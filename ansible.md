@@ -5,6 +5,18 @@ https://www.tutorialspoint.com/ansible/index.htm
 https://serversforhackers.com/c/an-ansible-tutorial
 
 
+/etc/ansible/hosts
+
+[web]
+
+192.168.29.223
+
+192.168.29.142
+
+192.168.29.145
+
+
+
 ## ping ##
 
 ssh 설정이 되어 있지 않아서 에러가 발생한다. 
