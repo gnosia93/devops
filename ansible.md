@@ -138,21 +138,19 @@ $ ansible web -m ping -u ansible
 
 ```
 $ ansible 192.168.29.223 -m setup -u ansible
-``
+```
 
-
-## Adhoc 실습 ##
-
+## Adhoc ##
 ### nginx 설치 ###
 ```
-
-
+11
 ```
 
 
 
-## PlayBook 실습 ##
+## PlayBook ##
 ```
+111
 ```
 
 
