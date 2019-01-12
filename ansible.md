@@ -81,22 +81,29 @@ and check to make sure that only the key(s) you wanted were added.
 ```
 
 
-## ping ##
+### 4. ping 테스트 ###
 
-ssh 설정이 되어 있지 않아서 에러가 발생한다. 
+145 번 서버는 리모트 서버에 ansible 계정이 없거나 pub key 가 복사되지 않아서 발생하는 에러이다.
+
+142 번 서버는 현재 shutdown 되어 있다. 
 
 ```
-$ ansible all -m ping
-192.168.29.223 | UNREACHABLE! => {
+startup@startup:~$ ansible web -m ping -u ansible
+192.168.29.145 | UNREACHABLE! => {
     "changed": false,
-    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.29.223 port 22: Connection refused\r\n",
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).\r\n",
     "unreachable": true
+}
+192.168.29.223 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
 }
 192.168.29.142 | UNREACHABLE! => {
     "changed": false,
-    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.29.142 port 22: Connection refused\r\n",
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.29.142 port 22: No route to host\r\n",
     "unreachable": true
 }
+
 
 ```
 
