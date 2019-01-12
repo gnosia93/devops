@@ -2,14 +2,18 @@
 
 [Ansible Tutorials](https://github.com/gnosia93/devops/blob/master/ansible.md)
 
-
-
 ## Kubernetes ##
 https://github.com/gnosia93/devops/blob/master/kubernetes.md
 
 ## Docker ##
 
 https://github.com/gnosia93/devops/blob/master/docker.md
+
+
+## ubuntu ##
+https://github.com/gnosia93/devops/blob/master/ubuntu.md
+
+
 
 #### ocker Log 관리 ####
 
