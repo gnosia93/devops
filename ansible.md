@@ -54,3 +54,8 @@ startup@startup:~/.ssh$ ansible web -m ping
     "unreachable": true
 }
 ```
+
+```
+<192.168.29.223> ESTABLISH SSH CONNECTION FOR USER: None
+<192.168.29.223> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/startup/.ansible/cp/cb7d8b7841 192.168.29.223 '/bin/sh -c '"'"'echo ~ && sleep 0'"'"''
+```
