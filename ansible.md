@@ -22,10 +22,19 @@ ansible@ubuntu1:~$ id
 uid=1001(ansible) gid=1001(ansible) 그룹들=1001(ansible),27(sudo)
 ```
 
+### 2. ssh 데몬 설치 ###
 
-### 2. 관리 서버에 ssh-keygen ###
+관리 대상 서버에 ssh 데몬을 설치한다. 아래는 우분투에서 sshd 설치하는 방법이다. 
+```
+$ sudo apt-get install ssh 
+$ service sshd status
+$ ansible all -m ping
+```
 
-매니지 먼트 서버에 ssh 키를 생성한다. 
+
+### 3. 관리 서버에 ssh-keygen ###
+
+관리 서버에 ssh 키를 생성한다. 
 ```
 $ ssh-keygen
 Generating public/private rsa key pair.
@@ -52,7 +61,7 @@ startup@startup:~$
 
 ```
 
-### 3. Pub Key Copy ###
+### 4. Pub Key Copy ###
 
 리모트 서버에 ssh pub key 를 카피한다. 
 ```
@@ -71,27 +80,6 @@ and check to make sure that only the key(s) you wanted were added.
 ```
 
 
-
-## 우분투에 ssh 설치하기 ##
-ssh 모듈을 설치한 다음 데몬 상태를 확인하고 다시 ping.  이번에는 권한 에러가 발생한다. 
-
-```
-$ sudo apt-get install ssh 
-$ service sshd status
-$ ansible all -m ping
-
-startup@startup:~/.ssh$ ansible web -m ping
-192.168.29.223 | UNREACHABLE! => {
-    "changed": false,
-    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).\r\n",
-    "unreachable": true
-}
-192.168.29.142 | UNREACHABLE! => {
-    "changed": false,
-    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).\r\n",
-    "unreachable": true
-}
-```
 
 ```
 
