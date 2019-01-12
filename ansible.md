@@ -81,33 +81,7 @@ and check to make sure that only the key(s) you wanted were added.
 ```
 
 
-### 4. ping 테스트 ###
 
--u 옵션을 이용하여 ssh 로 로그인 할 유저를 명시한다. default 는 root 이다. 
-
-145 번 서버는 리모트 서버에 ansible 계정이 없거나 pub key 가 복사되지 않아서 발생하는 에러이다.
-
-142 번 서버는 현재 shutdown 되어 있다. 
-
-```
-startup@startup:~$ ansible web -m ping -u ansible
-192.168.29.145 | UNREACHABLE! => {
-    "changed": false,
-    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).\r\n",
-    "unreachable": true
-}
-192.168.29.223 | SUCCESS => {
-    "changed": false,
-    "ping": "pong"
-}
-192.168.29.142 | UNREACHABLE! => {
-    "changed": false,
-    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.29.142 port 22: No route to host\r\n",
-    "unreachable": true
-}
-
-
-```
 
 ##  ##
 ansible.cfg 에서 ssh 설정 변경.
@@ -141,6 +115,31 @@ startup@startup:~/.ssh$ ansible web -m ping
 ```
 
 ```
-<192.168.29.223> ESTABLISH SSH CONNECTION FOR USER: None
-<192.168.29.223> SSH: EXEC ssh -C -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o KbdInteractiveAuthentication=no -o PreferredAuthentications=gssapi-with-mic,gssapi-keyex,hostbased,publickey -o PasswordAuthentication=no -o ConnectTimeout=10 -o ControlPath=/home/startup/.ansible/cp/cb7d8b7841 192.168.29.223 '/bin/sh -c '"'"'echo ~ && sleep 0'"'"''
+
+## ping 테스트 ##
+
+-u 옵션을 이용하여 ssh 로 로그인 할 유저를 명시한다. default 는 root 이다. 
+
+145 번 서버는 리모트 서버에 ansible 계정이 없거나 pub key 가 복사되지 않아서 발생하는 에러이다.
+
+142 번 서버는 현재 shutdown 되어 있다. 
+
+```
+startup@startup:~$ ansible web -m ping -u ansible
+192.168.29.145 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Permission denied (publickey,password).\r\n",
+    "unreachable": true
+}
+192.168.29.223 | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+192.168.29.142 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.29.142 port 22: No route to host\r\n",
+    "unreachable": true
+}
+
+
 ```
