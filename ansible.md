@@ -15,6 +15,9 @@ https://serversforhackers.com/c/an-ansible-tutorial
 
 192.168.29.145
 
+## initial Setup ##
+
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
 
 
 ## ping ##
