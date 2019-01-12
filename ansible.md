@@ -152,6 +152,14 @@ $ ansible 192.168.29.223 -m setup -u ansible
 ```
 조건분기.
 https://sysnet4admin.blogspot.com/2017/10/ansible-nginx_27.html#.XDlVUVwzYuU
+
+
+loop / delay..
+
+try catch.
+
+event handler.
+
 ```
 
 
