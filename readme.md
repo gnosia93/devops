@@ -14,6 +14,8 @@
 
 
 ## Kubernetes ##
+[Ansible Install](https://github.com/gnosia93/devops/blob/master/k8.md)
+
 https://github.com/gnosia93/devops/blob/master/kubernetes.md
 
 ## Docker ##
