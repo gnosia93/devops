@@ -124,6 +124,11 @@ $ ansible web -m ping -u ansible
     "msg": "Failed to connect to the host via ssh: ssh: connect to host 192.168.29.142 port 22: No route to host\r\n",
     "unreachable": true
 }
+```
 
+## Reboot ##
 
 ```
+~$ ansible all -a "/sbin/reboot" -u ansible --become -K
+```
+
