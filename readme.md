@@ -1,8 +1,8 @@
 ## Linux Admin ##
 
-[Centos](https://github.com/gnosia93/devops/blob/master/centos.md)
+[Centos](https://github.com/gnosia93/devops/blob/master/linux-centos.md)
 
-[Ubuntu]()
+[Ubuntu](https://github.com/gnosia93/devops/blob/master/linux-ubuntu.md)
 
 ## Ansible ##
 
