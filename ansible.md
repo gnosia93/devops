@@ -5,17 +5,7 @@ https://www.tutorialspoint.com/ansible/index.htm
 https://serversforhackers.com/c/an-ansible-tutorial
 
 
-/etc/ansible/hosts
-
-[web]
-
-192.168.29.223
-
-192.168.29.142
-
-192.168.29.145
-
-## initial Setup ##
+## Initial Setup ##
 
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
 
