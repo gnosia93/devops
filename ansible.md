@@ -6,6 +6,8 @@ https://serversforhackers.com/c/an-ansible-tutorial
 
 https://moonstrike.github.io/ansible/2016/09/09/Ansible-Basics.html
 
+https://sysnet4admin.blogspot.com/2017/10/ansible-nginx_27.html#.XDlVUVwzYuU
+
 
 
 
