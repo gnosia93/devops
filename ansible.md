@@ -150,7 +150,8 @@ $ ansible 192.168.29.223 -m setup -u ansible
 
 ## PlayBook ##
 ```
-111
+조건분기.
+https://sysnet4admin.blogspot.com/2017/10/ansible-nginx_27.html#.XDlVUVwzYuU
 ```
 
 
