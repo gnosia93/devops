@@ -99,8 +99,9 @@ $ cat hosts
 ```
 
 
-## ping 테스트 ##
+## Ansible 테스트 ##
 
+### ping ###
 -u 옵션을 이용하여 ssh 로 로그인 할 유저를 명시한다. default 는 root 이다. 
 
 145 번 서버는 리모트 서버에 ansible 계정이 없거나 pub key 가 복사되지 않아서 발생하는 에러이다.
@@ -126,9 +127,14 @@ $ ansible web -m ping -u ansible
 }
 ```
 
-## Reboot ##
+### Reboot ###
 
 ```
 ~$ ansible all -a "/sbin/reboot" -u ansible --become -K
 ```
+
+
+## Facts ##
+
+
 
