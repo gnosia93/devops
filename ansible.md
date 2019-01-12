@@ -8,6 +8,8 @@ https://moonstrike.github.io/ansible/2016/09/09/Ansible-Basics.html
 
 https://sysnet4admin.blogspot.com/2017/10/ansible-nginx_27.html#.XDlVUVwzYuU
 
+https://blog.ssdnodes.com/blog/step-by-step-ansible-guide/
+
 
 
 
