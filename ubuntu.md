@@ -16,3 +16,11 @@ dns-nameservers 8.8.8.8
 ```
 systemctl restart networking.service
 ```
+
+
+## DHCP 설정 ##
+```
+# The primary network interface
+auto enp0s3
+iface enp0s3 inet dhcp
+```
