@@ -20,6 +20,35 @@ https://serversforhackers.com/c/an-ansible-tutorial
 https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04
 
 
+### ssh-keygen ###
+```
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/startup/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/startup/.ssh/id_rsa.
+Your public key has been saved in /home/startup/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:42cX+8r/wHEqXPf08uDOk2//HUUTNqsnhL7FqABZ1xE startup@startup
+The key's randomart image is:
++---[RSA 2048]----+
+|       . ..Eo  + |
+|      o .  .. . +|
+|     o     . . o.|
+|      .   . + ...|
+|       .S  o.=o.=|
+|       .....o=o*+|
+|        ..o.= *oo|
+|         o o =o=+|
+|            o+*=X|
++----[SHA256]-----+
+startup@startup:~$
+
+```
+
+
+
 ## ping ##
 
 ssh 설정이 되어 있지 않아서 에러가 발생한다. 
