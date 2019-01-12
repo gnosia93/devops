@@ -10,6 +10,7 @@ https://sysnet4admin.blogspot.com/2017/10/ansible-nginx_27.html#.XDlVUVwzYuU
 
 https://blog.ssdnodes.com/blog/step-by-step-ansible-guide/
 
+https://code-maven.com/install-and-configure-nginx-using-ansible
 
 
 
