@@ -362,6 +362,7 @@ PLAY RECAP *********************************************************************
 192.168.29.142             : ok=3    changed=0    unreachable=0    failed=0
 192.168.29.145             : ok=3    changed=0    unreachable=0    failed=0
 192.168.29.223             : ok=3    changed=0    unreachable=0    failed=0
+```
 
 
 ### nginx 삭제 ###
