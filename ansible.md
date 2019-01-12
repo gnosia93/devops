@@ -237,53 +237,13 @@ SUDO password:
 
 
 ### nginx 정지 / 삭제 ###
+
+삭제는 state 값으로 조정하고, autoremove 는 의존관계를 제거하는 옵션이다. 
+
 ```
 ansible 192.168.29.223 -b -K -m service -a 'name=nginx state=stopped' -u ansible
 
-startup@startup:~$ ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=absent' -u ansible
-SUDO password:
-192.168.29.223 | CHANGED => {
-    "changed": true,
-    "stderr": "",
-    "stderr_lines": [],
-    "stdout": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nThe following packages were automatically installed and are no longer required:\n  nginx-common nginx-core\nUse 'sudo apt autoremove' to remove them.\nThe following packages will be REMOVED:\n  nginx\n0 upgraded, 0 newly installed, 1 to remove and 673 not upgraded.\nAfter this operation, 37.9 kB disk space will be freed.\n(Reading database ... \r(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r(Reading database ... 75%\r(Reading database ... 80%\r(Reading database ... 85%\r(Reading database ... 90%\r(Reading database ... 95%\r(Reading database ... 100%\r(Reading database ... 181638 files and directories currently installed.)\r\nRemoving nginx (1.10.3-0ubuntu0.16.04.3) ...\r\n",
-    "stdout_lines": [
-        "Reading package lists...",
-        "Building dependency tree...",
-        "Reading state information...",
-        "The following packages were automatically installed and are no longer required:",
-        "  nginx-common nginx-core",
-        "Use 'sudo apt autoremove' to remove them.",
-        "The following packages will be REMOVED:",
-        "  nginx",
-        "0 upgraded, 0 newly installed, 1 to remove and 673 not upgraded.",
-        "After this operation, 37.9 kB disk space will be freed.",
-        "(Reading database ... ",
-        "(Reading database ... 5%",
-        "(Reading database ... 10%",
-        "(Reading database ... 15%",
-        "(Reading database ... 20%",
-        "(Reading database ... 25%",
-        "(Reading database ... 30%",
-        "(Reading database ... 35%",
-        "(Reading database ... 40%",
-        "(Reading database ... 45%",
-        "(Reading database ... 50%",
-        "(Reading database ... 55%",
-        "(Reading database ... 60%",
-        "(Reading database ... 65%",
-        "(Reading database ... 70%",
-        "(Reading database ... 75%",
-        "(Reading database ... 80%",
-        "(Reading database ... 85%",
-        "(Reading database ... 90%",
-        "(Reading database ... 95%",
-        "(Reading database ... 100%",
-        "(Reading database ... 181638 files and directories currently installed.)",
-        "Removing nginx (1.10.3-0ubuntu0.16.04.3) ..."
-    ]
-}
-
+ansible 192.168.29.223 -b -K -m apt -a 'name=nginx state=absent autoremove=yes' -u ansible
 ```
 
 
