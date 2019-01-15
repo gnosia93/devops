@@ -28,6 +28,8 @@ https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pip
 
 https://jenkins.io/doc/book/pipeline/
 
+http://wiki.rockplace.co.kr/pages/viewpage.action?pageId=3870355
+
 
 
 ## Docker ##
