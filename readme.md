@@ -9,6 +9,7 @@ logback 에서 kafka 로 메시지 보내기.
 
 http://gyrfalcon.tistory.com/entry/Kafka-Kafka%EB%A1%9C-Log%EB%A5%BC-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95%EB%93%A4
 
+http://goddaehee.tistory.com/45
 
 # 모니터링 #
 
