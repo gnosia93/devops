@@ -1,6 +1,6 @@
 ## 파이프라인 ##
 
-
+https://jenkins.io/doc/book/pipeline/syntax/#scripted-pipeline
 
 
 ## 레퍼런스 ##
