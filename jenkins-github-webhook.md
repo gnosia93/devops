@@ -1,3 +1,5 @@
 ## 레퍼런스 ##
 
-http://taewan.kim/post/bitbucket_jenkins_webhook/
+https://ict-nroo.tistory.com/35
+
+https://ict-nroo.tistory.com/37
