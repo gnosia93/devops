@@ -2,6 +2,8 @@
 
 https://jenkins.io/doc/book/pipeline/syntax/#scripted-pipeline
 
+https://jojoldu.tistory.com/139
+
 
 ## 레퍼런스 ##
 
