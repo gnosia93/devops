@@ -18,6 +18,11 @@ http://gyrfalcon.tistory.com/entry/Kafka-Kafka%EB%A1%9C-Log%EB%A5%BC-%EB%B3%B4%E
 
 http://goddaehee.tistory.com/45
 
+
+아키텍처..
+https://medium.com/chequer/elkr-elasticsearch-logstash-kibana-redis-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%A1%9C%EA%B7%B8%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-f3dd9dfae622
+
+
 # 모니터링 #
 
 https://github.com/scouter-project/scouter
