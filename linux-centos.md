@@ -36,6 +36,32 @@ JENKINS_PORT=“8080”   --> 9090 으로 변경.
 > sudo systemctl start jenkins
 > sudo firewall-cmd --permanent --add-port=9090/tcp             -- 방화벽 
 > sudo firewall-cmd --reload
+
+
+# elasticsearch
+> sudo vi /etc/yum.repo.d/elastic.repo
+
+[elasticsearch-6.x]
+name=Elasticsearch repository for 6.x packages
+baseurl=https://artifacts.elastic.co/packages/6.x/yum
+gpgcheck=1
+gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
+enabled=1
+autorefresh=1
+type=rpm-md
+
+> sudo yum install elasticsearch -y
+> sudo systemctl enable elasticsearch
+> sudo systemctl start elasticsearch
+
+
+# kibana
+> sudo yum install kibana -y
+
+
+# logstash
+> sudo yum install logstash -y
+
 ```
 
 
