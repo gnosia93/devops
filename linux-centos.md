@@ -1,3 +1,17 @@
+## Admin ##
+
+```
+# putty 설정
+https://stove99.tistory.com/172
+https://stackoverflow.com/questions/20864224/putty-getting-server-refused-our-key-error/29292390
+
+# sudoer 등록
+https://sseungshin.tistory.com/82
+
+# docker 설치
+http://www.kwangsiklee.com/2017/07/centos%EC%97%90%EC%84%9C-docker-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/
+```
+
 ## Nginx ##
 
 ```
