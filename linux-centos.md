@@ -21,6 +21,7 @@ http://www.kwangsiklee.com/2017/07/centos%EC%97%90%EC%84%9C-docker-%EC%84%A4%EC%
 > mysql_secure_installation
 ```
 
+로그 파일에 보면 아래와 같은 라인을 찾을 수 있다. 
 
 2019-01-30T16:13:39.222605Z 1 [Note] A temporary password is generated for root@localhost: PdiWo(kpw8oM
 
