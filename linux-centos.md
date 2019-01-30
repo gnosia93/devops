@@ -25,7 +25,9 @@ http://www.kwangsiklee.com/2017/07/centos%EC%97%90%EC%84%9C-docker-%EC%84%A4%EC%
 
 
 # jenkins 설치
-> wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+> sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+> sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+> sudo yum install jenkins
 
 ```
 
