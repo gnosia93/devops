@@ -39,6 +39,8 @@ JENKINS_PORT=“8080”   --> 9090 으로 변경.
 
 
 # elasticsearch
+# https://soulsearcher.github.io/blog/2018/02/12/elastic_on_centos/
+
 > sudo vi /etc/yum.repo.d/elastic.repo
 
 [elasticsearch-6.x]
@@ -63,6 +65,8 @@ type=rpm-md
 > sudo yum install logstash -y
 
 ```
+
+
 
 
 ## Nginx ##
