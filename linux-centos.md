@@ -19,11 +19,15 @@ http://www.kwangsiklee.com/2017/07/centos%EC%97%90%EC%84%9C-docker-%EC%84%A4%EC%
 > sudo systemctl start mysqld
 > cat /var/log/mysqld.log            -- 설치시 발급되는 임시 비밀번호.
 > mysql_secure_installation
-```
 
 로그 파일에 보면 아래와 같은 라인을 찾을 수 있다. 
-
 2019-01-30T16:13:39.222605Z 1 [Note] A temporary password is generated for root@localhost: PdiWo(kpw8oM
+
+
+# jenkins 설치
+> wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+```
 
 
 ## Nginx ##
