@@ -34,6 +34,8 @@ JENKINS_PORT=“8080”   --> 9090 으로 변경.
 
 > sudo systemctl enable jenkins 
 > sudo systemctl start jenkins
+> sudo firewall-cmd --permanent --add-port=9090/tcp             -- 방화벽 
+> sudo firewall-cmd --reload
 ```
 
 
