@@ -6,6 +6,8 @@
 
 * [JENKINS Tutorial](https://www.tutorialspoint.com/jenkins/index.htm)
 
+* [CD/CD on K8S /w Jenkins](https://medium.com/containerum/configuring-ci-cd-on-kubernetes-with-jenkins-89eab7234270)
+
 
 ## Test ##
 
