@@ -4,6 +4,8 @@
 
 * [JENKINS PipeLine](https://github.com/gnosia93/devops/blob/master/jenkins-pipeline.md)
 
+* [JENKINS Tutorial](https://www.tutorialspoint.com/jenkins/index.htm)
+
 
 ## Test ##
 
