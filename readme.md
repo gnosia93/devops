@@ -47,6 +47,8 @@ http://gblee1987.tistory.com/35
 
 [Playbook](https://github.com/gnosia93/devops/blob/master/ansible-playbook.md)
 
+https://code-maven.com/setup-for-learning-ansible
+
 
 ## Kubernetes ##
 [Ansible Install](https://github.com/gnosia93/devops/blob/master/k8.md)
