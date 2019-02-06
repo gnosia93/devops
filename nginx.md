@@ -1,3 +1,5 @@
+## nginx 설치 ##
+
 ```
 $ sudo systemctl enable nginx
 Created symlink from /etc/systemd/system/multi-user.target.wants/nginx.service to /usr/lib/systemd/system/nginx.service.
@@ -28,4 +30,11 @@ $ sudo firewall-cmd --permanent --zone=public --add-service=http
 $ sudo firewall-cmd --permanent --zone=public --add-service=https
 $ sudo firewall-cmd --reload        
 $ curl http://startup
+```
+
+## nginx clean 삭제 ##
+```
+$ apt-get purge nginx nginx-common nginx-full 
+$ apt-get install nginx 
+
 ```
