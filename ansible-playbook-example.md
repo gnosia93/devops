@@ -14,4 +14,5 @@
      
 ```
 > ansible-playbook nginx.yml --user root -vvv
+> service nginx status
 
