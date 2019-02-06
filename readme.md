@@ -47,6 +47,8 @@ http://gblee1987.tistory.com/35
 
 [Playbook](https://github.com/gnosia93/devops/blob/master/ansible-playbook.md)
 
+[Playbook Example](https://github.com/gnosia93/devops/blob/master/ansible-playbook-example.md)
+
 https://code-maven.com/setup-for-learning-ansible
 
 
