@@ -1,5 +1,6 @@
 ## Nginx Playbook ##
 ```
+> cd ansible; vi nginx.yml
 
 - hosts: localhost
   tasks:
@@ -12,7 +13,7 @@
      - name: start nginx
        service: name=nginx state=started
      
-```
+
 > ansible-playbook nginx.yml --user root -vvv
 > service nginx status
-
+```
