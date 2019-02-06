@@ -32,6 +32,11 @@ $ sudo firewall-cmd --reload
 $ curl http://startup
 ```
 
+## 설정 reload ##
+```
+$ sudo service nginx reload;
+```
+
 ## nginx clean 삭제 ##
 ```
 $ apt-get purge nginx nginx-common nginx-full 
