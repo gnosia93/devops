@@ -38,3 +38,9 @@ $ apt-get purge nginx nginx-common nginx-full
 $ apt-get install nginx 
 
 ```
+
+
+## 레퍼런스 ##
+
+https://www.opentutorials.org/module/384/4526
+
