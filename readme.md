@@ -1,3 +1,8 @@
+## Cache ##
+
+[Redis](https://github.com/gnosia93/devops/blob/master/redis.md)
+
+
 확장성 있는 웹 아키텍처와 분산 시스템
 
 https://d2.naver.com/helloworld/206816
