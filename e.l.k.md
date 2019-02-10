@@ -2,8 +2,13 @@
 
 firewall-cmd 명령어를 이용하여 9200 번 tcp 포트를 오픈하고, elasticsearch.yml 파일에 network.host 설정값을 0.0.0.0 으로 설정한다. 
 
+스프링 부트에서 네트웍으로 elastic 에 접근하기 위해서는 기본 포트인 9200 이외에, transport 포트 9300번을 오픈해야 한다. 
+
 ```
 $ sudo firewall-cmd --permanent --add-port=9200/tcp
+success
+
+$ sudo firewall-cmd --permanent --add-port=9300/tcp
 success
 
 $ sudo firewall-cmd --reload
@@ -11,6 +16,10 @@ $ sudo firewall-cmd --reload
 $ cd /etc/elasticsearch
 $ vi elasticsearch.yml
 network.host: 0.0.0.0   추가.
+transport.tcp.port: 9300   추가. 
+
+
+
 
 $ curl -X GET "http://localhost:9200"
 {
