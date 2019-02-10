@@ -6,8 +6,9 @@ firewall-cmd 명령어를 이용하여 9200 번 tcp 포트를 오픈하고, elas
 $ sudo firewall-cmd --permanent --add-port=9200/tcp
 success
 
-$ cd /etc/elasticsearch
+$ sudo firewall-cmd --reload
 
+$ cd /etc/elasticsearch
 $ vi elasticsearch.yml
 network.host: 0.0.0.0   추가.
 
