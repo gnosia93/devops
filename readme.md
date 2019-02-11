@@ -77,9 +77,7 @@ https://code-maven.com/setup-for-learning-ansible
 
 ## Kubernetes ##
 
-https://microk8s.io/    -- 쿠버 인스톨.
-
-https://microk8s.io/docs/   -- 어드민 메뉴얼.
+https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux    -- 설치가이드.
 
 
 
