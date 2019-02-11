@@ -76,6 +76,9 @@ https://code-maven.com/setup-for-learning-ansible
 
 
 ## Kubernetes ##
+
+https://microk8s.io/    -- 쿠버 인스톨.
+
 [Ansible Install](https://github.com/gnosia93/devops/blob/master/k8.md)
 
 https://kubernetes.io/ko/docs/tutorials/
