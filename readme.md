@@ -62,6 +62,8 @@ http://gblee1987.tistory.com/35
 
 [Ubuntu](https://github.com/gnosia93/devops/blob/master/linux-ubuntu.md)
 
+[KVM install on Cent](https://www.linuxtechi.com/install-kvm-hypervisor-on-centos-7-and-rhel-7/)
+
 ## Ansible ##
 
 [Setup](https://github.com/gnosia93/devops/blob/master/ansible.md)
