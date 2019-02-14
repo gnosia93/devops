@@ -94,7 +94,7 @@ https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 
 * [인스톨](https://github.com/gnosia93/devops/blob/master/openshift-install.md)
 
-https://github.com/openshift/origin/tree/v3.11.0
+
 
 
 
