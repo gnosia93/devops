@@ -90,6 +90,12 @@ https://kubernetes.io/ko/docs/tutorials/
 https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 
 
+## OpenShift ##
+
+https://github.com/openshift/origin/tree/v3.11.0
+
+
+
 -- 꼭 다 익혀야 한다.
 https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pipeline-kubernetes-part-1-overview
 
