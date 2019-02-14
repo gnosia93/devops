@@ -14,7 +14,8 @@ $ tar xvfz openshift-origin-server-v3.11.0-d0c29df-98-linux-64bit.tar.gz
 $ cd openshift-origin-server-v3.11.0-d0c29df-98-linux-64bit
 $ sudo cp openshift oc kubectl /usr/local/bin
 $ sudo oc cluster up
-
+$ sudo firewall-cmd --add-port=8443/tcp --permanent
+$ sudo firewall-cmd --reload
 ```
 
 
