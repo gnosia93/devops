@@ -70,4 +70,5 @@ sudo systemctl restart docker
 
 ## 레퍼런스 ##
 
+http://snowdeer.github.io/openshift/2018/02/18/install-openshift-origin/
 
