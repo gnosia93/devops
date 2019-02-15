@@ -13,15 +13,15 @@ $ wget https://artifacts-openshift-release-3-11.svc.ci.openshift.org/zips/opensh
 $ tar xvfz openshift-origin-server-v3.11.0-d0c29df-98-linux-64bit.tar.gz
 $ cd openshift-origin-server-v3.11.0-d0c29df-98-linux-64bit
 $ sudo cp openshift oc kubectl /usr/local/bin
-$ sudo oc cluster up
 $ sudo firewall-cmd --add-port=8443/tcp --permanent
 $ sudo firewall-cmd --reload
+$ oc cluster up
 ```
 
 
 ## 에러1 ##
 ```
-[startup@localhost ~]$ sudo oc cluster up
+$ sudo oc cluster up
 Getting a Docker client ...
 Checking if image openshift/origin-control-plane:v3.11 is available ...
 Pulling image openshift/origin-control-plane:v3.11
