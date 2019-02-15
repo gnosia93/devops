@@ -68,18 +68,44 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-## 에러2 ##
-```
+## 클래스터 실행하기 ##
 
-
-```
 
 ```
 $ sudo firewall-cmd --add-port=8443/tcp --permanent
 $ firewall-cmd --reload
 $ sudo usermod -a -G docker startup
+```
+
+오픈 쉬프트는 root 권한 실행을 금지하고 있다. 일반 유저로 oc 를 실행해야 한다. 
+
+상기 스크립트에서 보이는 바와 같이 startup 유저에 docker 그룹을 추가해 주었다. (sudo를 사용하지 않기 위해) 
 
 ```
+$ oc cluster up 
+
+...
+" "sample-templates/mongodb" "sample-templates/mariadb" "sample-templates/mysql" "sample-templates/postgresql" "sample-templates/cakephp quickstart" "sample-templates/dancer quickstart" "sample-templates/jenkins pipeline ephemeral" "sample-templates/sample pipeline"
+I0215 09:22:23.928148    3199 interface.go:41] Finished installing "sample-templates" "persistent-volumes" "openshift-web-console-operator" "centos-imagestreams" "openshift-image-registry" "openshift-router"
+Login to server ...
+Creating initial project "myproject" ...
+Server Information ...
+OpenShift server started.
+
+The server is accessible via web console at:
+    https://127.0.0.1:8443/console
+
+You are logged in as:
+    User:     developer
+    Password: <any value>
+
+To login as administrator:
+    oc login -u system:admin
+
+[startup@localhost ~]$  https://127.0.0.1:8443/console
+
+```
+
 
 ## 레퍼런스 ##
 
