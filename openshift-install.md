@@ -75,6 +75,8 @@ sudo systemctl restart docker
 ```
 
 ```
+$ sudo firewall-cmd --add-port=8443/tcp --permanent
+$ firewall-cmd --reload
 $ sudo usermod -a -G docker startup
 
 ```
