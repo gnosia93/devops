@@ -82,7 +82,25 @@ $ sudo usermod -a -G docker startup
 상기 스크립트에서 보이는 바와 같이 startup 유저에 docker 그룹을 추가해 주었다. (sudo를 사용하지 않기 위해) 
 
 ```
-$ oc cluster up 
+# cd /home/startup/openshift.local.clusterup/openshift.local.volumes/pods/c6177318-30b7-11e9-a791-b00cd12adb18/volumes/kubernetes.io~configmap/webconsole-config
+# ls -la
+합계 0
+drwxrwsrwx. 4 root 1000120000 128  2월 15 14:35 .
+drwxr-xr-x. 3 root root        31  2월 15 09:22 ..
+drwxr-sr-x. 2 root 1000120000  36  2월 15 14:34 ..2019_02_15_00_22_27.301091537
+drwxr-sr-x. 2 root 1000120000  36  2월 15 14:35 ..2019_02_15_05_35_01.192537530
+lrwxrwxrwx. 1 root 1000120000  31  2월 15 14:35 ..data -> ..2019_02_15_05_35_01.192537530
+lrwxrwxrwx. 1 root root        29  2월 15 09:22 webconsole-config.yaml -> ..data/webconsole-config.yaml
+
+vi webconsole-config.yml
+127.0.0.1 --> 192.168.29.106 으로 수정.
+```
+
+
+
+```
+$ oc cluster up
+
 
 ...
 " "sample-templates/mongodb" "sample-templates/mariadb" "sample-templates/mysql" "sample-templates/postgresql" "sample-templates/cakephp quickstart" "sample-templates/dancer quickstart" "sample-templates/jenkins pipeline ephemeral" "sample-templates/sample pipeline"
@@ -105,6 +123,10 @@ To login as administrator:
 [startup@localhost ~]$  https://127.0.0.1:8443/console
 
 ```
+
+
+
+
 
 
 ## 레퍼런스 ##
