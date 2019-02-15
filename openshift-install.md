@@ -124,7 +124,7 @@ To login as administrator:
 
 ```
 
-
+https://startup:8443/console  로 접속.
 
 
 
