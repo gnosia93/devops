@@ -19,7 +19,7 @@ $ sudo firewall-cmd --reload
 ```
 
 
-## 에러 ##
+## 에러1 ##
 ```
 [startup@localhost ~]$ sudo oc cluster up
 Getting a Docker client ...
@@ -68,6 +68,16 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
+## 에러2 ##
+```
+
+
+```
+
+```
+$ sudo usermod -a -G docker startup
+
+```
 
 ## 레퍼런스 ##
 
