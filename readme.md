@@ -110,6 +110,9 @@ https://jenkins.io/doc/book/pipeline/
 http://wiki.rockplace.co.kr/pages/viewpage.action?pageId=3870355
 
 
+[젠킨스튜토리얼](https://www.youtube.com/watch?v=89yWXXIOisk)
+
+
 ## SW Stack ##
 
 [Nginx](https://github.com/gnosia93/devops/blob/master/nginx.md)
