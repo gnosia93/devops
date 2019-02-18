@@ -101,7 +101,7 @@ https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 
 * [OKD](https://docs.okd.io/3.11/welcome/index.html)
 
-
+* [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
 
 
 
