@@ -64,6 +64,8 @@ https://medium.com/chequer/elkr-elasticsearch-logstash-kibana-redis-%EB%A5%BC-%E
 
 # 모니터링 #
 
+[telegraf](https://www.popit.kr/influxdb_telegraf_grafana_2/)
+
 https://github.com/scouter-project/scouter
 
 http://gblee1987.tistory.com/35
