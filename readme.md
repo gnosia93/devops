@@ -4,6 +4,8 @@
 
 [MacOS](https://techsviewer.com/install-macos-10-14-mojave-virtualbox-windows/)
 
+[MacOS Mouse](https://www.geekrar.com/fix-mouse-keyboard-stuck-macos-mojave-virtualbox/)
+
 
 ## devops Interview ##
 
