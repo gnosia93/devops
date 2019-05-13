@@ -139,6 +139,8 @@ https://www.digitalocean.com/community/tutorials/how-to-configure-collectd-to-ga
 
 https://collectd.org/wiki/index.php/Plugin:MySQL#Description
 
+https://saksin.tistory.com/m/1087?category=396744
+
 # 3. Graphana 설정 #
 
 
