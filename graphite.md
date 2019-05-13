@@ -1,6 +1,9 @@
 
 
 ## 아파치 포트 변경 ##
+
+SELinux 가 Enabe 되어 있는 경우 아파치에서 바인딩 되는 포트는 정해져 있다. (아래 레퍼런스 참조)
+
 ```
 $ sudo vi /etc/httpd/conf/httpd.conf
 
