@@ -114,6 +114,11 @@ https://pshcode.tistory.com/88
 
 # 2. Collectd 설정 #
 
+
+## 레퍼런스 ##
+
+https://collectd.org/
+
 https://collectd.org/wiki/index.php/Plugin:MySQL#Description
 
 # 3. Graphana 설정 #
