@@ -1,3 +1,5 @@
+# 1. Graphite 설정 #
+
 ## Graphite   ##
 
 https://www.server-world.info/en/note?os=CentOS_7&p=graphite
@@ -98,6 +100,7 @@ success
 $ sudo firewall-cmd --reload
 ```
 
+
 ## 레퍼런스 ##
 
 https://www.server-world.info/en/note?os=CentOS_7&p=graphite
@@ -107,3 +110,13 @@ https://stackoverflow.com/questions/17079670/httpd-server-not-started-13permissi
 https://www.lesstif.com/pages/viewpage.action?pageId=22053128
 
 https://pshcode.tistory.com/88
+
+
+# 2. Collectd 설정 #
+
+https://collectd.org/wiki/index.php/Plugin:MySQL#Description
+
+# 3. Graphana 설정 #
+
+
+
