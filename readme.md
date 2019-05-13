@@ -1,3 +1,13 @@
+## YUM
+```
+-- 인스톨 패키지 확인 및 삭제 
+$ yum list installed | grep graphite-web
+graphite-web.noarch                     0.9.16-3.el7                   @epel
+
+$ yum remove graphite-web.noarch
+
+```
+
 ## 모니터링 ##
 
 [Install Graphite on CentOS 7](https://github.com/gnosia93/devops/blob/master/graphite.md)
