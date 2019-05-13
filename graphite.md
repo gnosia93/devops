@@ -114,18 +114,19 @@ https://pshcode.tistory.com/88
 
 # 2. Collectd 설정 #
 
-설치
+아래와 같이 collectd 와 collectd mysql plugin 을 설치해 준다. 
+
 ```
 $ yum update
 $ yum upgrade
 $ yum install epel-release 
 $ sudo yum install collectd
+$ yum install collectd-mysql
 ```
 
+collectd.conf 파일을 열어 적당히 편집해 준다. 
+```
 $ sudo vi /etc/collectd.conf
-
-```
-
 ```
 
 
