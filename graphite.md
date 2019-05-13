@@ -20,6 +20,15 @@ Listen 9000
 Listen 9002
 ```
 
+## 버추얼 호스트 설정 ##
+
+```
+
+
+```
+
+
+
 ## SELinux 포트 오픈 ##
 ```
 $ sudo yum -y install policycoreutils-python
@@ -45,3 +54,5 @@ https://www.server-world.info/en/note?os=CentOS_7&p=graphite
 https://stackoverflow.com/questions/17079670/httpd-server-not-started-13permission-denied-make-sock-could-not-bind-to-ad
 
 https://www.lesstif.com/pages/viewpage.action?pageId=22053128
+
+https://pshcode.tistory.com/88
