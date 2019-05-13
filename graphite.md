@@ -1,7 +1,24 @@
 
 
+## 아파치 포트 변경 ##
+```
+$ sudo vi /etc/httpd/conf/httpd.conf
 
-## 포트오픈 ## 
+#
+# Listen: Allows you to bind Apache to specific IP addresses and/or
+# ports, instead of the default. See also the <VirtualHost>
+# directive.
+#
+# Change this to Listen on specific IP addresses as shown below to
+# prevent Apache from glomming onto all bound IP addresses.
+#
+#Listen 12.34.56.78:80
+Listen 9000
+
+```
+
+
+## 방화벽 포트 오픈 ## 
 
 ```
 [startup@startup conf]$ sudo firewall-cmd --permanent --add-port=9000/tcp
