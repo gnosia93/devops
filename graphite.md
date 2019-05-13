@@ -119,6 +119,8 @@ https://pshcode.tistory.com/88
 
 https://collectd.org/
 
+https://linuxadmin.io/collectd-install-centos-7/
+
 https://collectd.org/wiki/index.php/Plugin:MySQL#Description
 
 # 3. Graphana 설정 #
