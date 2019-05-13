@@ -17,16 +17,25 @@ $ sudo vi /etc/httpd/conf/httpd.conf
 #
 #Listen 12.34.56.78:80
 Listen 9000
-
+Listen 9002
 ```
 
+## SELinux 포트 오픈 ##
+```
+$ sudo yum -y install policycoreutils-python
+$ sudo semanage port -a -t http_port_t -p tcp 9002
+```
 
 ## 방화벽 포트 오픈 ## 
 
 ```
-[startup@startup conf]$ sudo firewall-cmd --permanent --add-port=9000/tcp
+$ sudo firewall-cmd --permanent --add-port=9000/tcp
 success
-[startup@startup conf]$ sudo firewall-cmd --reload
+
+$ sudo firewall-cmd --permanent --add-port=9002/tcp
+success
+
+$ sudo firewall-cmd --reload
 ```
 
 ## 레퍼런스 ##
