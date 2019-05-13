@@ -12,7 +12,7 @@ $ https://www.server-world.info/en/note?os=CentOS_7&p=graphite
 
 ## 모니터링 ##
 
-[Install Graphite on CentOS 7](https://github.com/gnosia93/devops/blob/master/graphite.md)
+[MySQL 모니터링 Collectd + Graphite + Graphana on CentOS 7](https://github.com/gnosia93/devops/blob/master/graphite.md)
 
 
 
