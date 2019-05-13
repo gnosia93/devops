@@ -130,6 +130,8 @@ https://collectd.org/
 
 https://linuxadmin.io/collectd-install-centos-7/
 
+https://www.digitalocean.com/community/tutorials/how-to-configure-collectd-to-gather-system-metrics-for-graphite-on-ubuntu-14-04
+
 https://collectd.org/wiki/index.php/Plugin:MySQL#Description
 
 # 3. Graphana 설정 #
