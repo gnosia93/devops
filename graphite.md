@@ -2,4 +2,4 @@
 
 ## 레퍼런스 ##
 
-http://www.ozmonet.com/projects/graphite.html
+https://www.server-world.info/en/note?os=CentOS_7&p=graphite
