@@ -10,6 +10,11 @@ $ https://www.server-world.info/en/note?os=CentOS_7&p=graphite
 
 ```
 
+SELinux 
+https://www.lesstif.com/pages/viewpage.action?pageId=6979732
+
+
+
 ## 모니터링 ##
 
 [MySQL 모니터링 Collectd + Graphite + Graphana on CentOS 7](https://github.com/gnosia93/devops/blob/master/graphite.md)
