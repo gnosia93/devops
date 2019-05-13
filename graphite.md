@@ -121,7 +121,7 @@ $ yum update
 $ yum upgrade
 $ yum install epel-release 
 $ sudo yum install collectd
-$ yum install collectd-mysql
+$ sudo yum install collectd-mysql
 ```
 
 collectd.conf 파일을 열어 적당히 편집해 준다. 
