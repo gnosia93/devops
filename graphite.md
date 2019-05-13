@@ -114,6 +114,15 @@ https://pshcode.tistory.com/88
 
 # 2. Collectd 설정 #
 
+```
+$ yum update
+$ yum upgrade
+$ yum install epel-release 
+$ sudo yum install collectd
+
+```
+
+
 
 ## 레퍼런스 ##
 
