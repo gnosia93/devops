@@ -6,6 +6,8 @@ graphite-web.noarch                     0.9.16-3.el7                   @epel
 
 $ yum remove graphite-web.noarch
 
+$ https://www.server-world.info/en/note?os=CentOS_7&p=graphite
+
 ```
 
 ## 모니터링 ##
