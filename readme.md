@@ -28,7 +28,7 @@
 
 [Collectd]()
 
-[Telegraph]()
+[Telegraf](https://github.com/gnosia93/devops/blob/master/telegraf.md)
 
 -------
 
