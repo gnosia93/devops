@@ -13,6 +13,15 @@ $ https://www.server-world.info/en/note?os=CentOS_7&p=graphite
 SELinux 
 https://www.lesstif.com/pages/viewpage.action?pageId=6979732
 
+## 리눅스 Command ##
+
+[YUM 사요업]()
+
+[SELinux Diable]()
+
+[Linux 방화벽]()
+
+
 
 
 ## 모니터링 ##
