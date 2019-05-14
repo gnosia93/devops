@@ -33,7 +33,7 @@ https://hamait.tistory.com/440
 
 ### 2.3 Data Gathering ###
 
-[Collectd]()
+[Collectd](https://github.com/gnosia93/devops/blob/master/collectd.md)
 
 [Telegraf](https://github.com/gnosia93/devops/blob/master/telegraf.md)
 
