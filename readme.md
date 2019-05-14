@@ -15,7 +15,7 @@ https://www.lesstif.com/pages/viewpage.action?pageId=6979732
 
 ## 리눅스 Command ##
 
-[YUM 사요업]()
+[YUM 사용업]()
 
 [SELinux Diable]()
 
