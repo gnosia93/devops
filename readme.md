@@ -16,15 +16,6 @@
 [웹페이지 성능측정](https://devcoding.tistory.com/tag/%EC%84%B1%EB%8A%A5%EC%B8%A1%EC%A0%95)
 
 
-## OS ##
-
-[CentOS](https://github.com/gnosia93/devops/blob/master/os-cmd.md)
-
-[MacOS](https://techsviewer.com/install-macos-10-14-mojave-virtualbox-windows/)
-
-[MacOS Mouse](https://www.geekrar.com/fix-mouse-keyboard-stuck-macos-mojave-virtualbox/)
-
-
 ## CI-CD ##
 
 * [JENKINS GitHub Webhook](https://github.com/gnosia93/devops/blob/master/jenkins-github-webhook.md)
