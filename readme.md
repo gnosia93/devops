@@ -15,7 +15,7 @@ https://www.lesstif.com/pages/viewpage.action?pageId=6979732
 
 ## 리눅스 Command ##
 
-[YUM 사용업]()
+[YUM](https://github.com/gnosia93/devops/blob/master/linux-yum.md)
 
 [SELinux Diable]()
 
