@@ -9,15 +9,24 @@
 
 
 
-## 모니터링 ##
+## 2. 모니터링 ##
 
-[MySQL 모니터링 Collectd + Graphite + Graphana on CentOS 7](https://github.com/gnosia93/devops/blob/master/graphite.md)
+### 2.1 시계열 저장소 ###
+
+[Graphite](https://github.com/gnosia93/devops/blob/master/graphite.md)
 
 [InfluxDB]
 
 [Prometeus]
 
+### 2.2 Data Visualization ###
+
 [그라파나(Grafana) 설치](https://github.com/gnosia93/devops/blob/master/grafana.md)
+
+
+### 2.3 Data Gathering ###
+
+[Collectd]()
 
 
 [웹페이지 성능측정](https://devcoding.tistory.com/tag/%EC%84%B1%EB%8A%A5%EC%B8%A1%EC%A0%95)
