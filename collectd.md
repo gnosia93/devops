@@ -1,4 +1,4 @@
-# 2. Collectd 설정 #
+# Collectd 설정 #
 
 아래와 같이 collectd 와 collectd mysql plugin 을 설치해 준다. 
 
@@ -28,4 +28,4 @@ https://collectd.org/wiki/index.php/Plugin:MySQL#Description
 
 https://saksin.tistory.com/m/1087?category=396744
 
-# 3. Graphana 설정 #
+
