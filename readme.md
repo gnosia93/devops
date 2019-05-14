@@ -18,35 +18,12 @@
 
 ## OS ##
 
-[CentOS ](https://github.com/gnosia93/devops/blob/master/os-cmd.md)
+[CentOS](https://github.com/gnosia93/devops/blob/master/os-cmd.md)
 
 [MacOS](https://techsviewer.com/install-macos-10-14-mojave-virtualbox-windows/)
 
 [MacOS Mouse](https://www.geekrar.com/fix-mouse-keyboard-stuck-macos-mojave-virtualbox/)
 
-
-## devops Interview ##
-
-https://www.youtube.com/watch?v=clZgb8GA6xI
-
-
-## Cloud ##
-
-https://opentutorials.org/course/2717/11268
-
-## Cache ##
-
-[Redis](https://github.com/gnosia93/devops/blob/master/redis.md)
-
-
-확장성 있는 웹 아키텍처와 분산 시스템
-
-https://d2.naver.com/helloworld/206816
-
-
-## Security ##
-
-https://en.wikipedia.org/wiki/Key_management
 
 ## CI-CD ##
 
@@ -109,6 +86,7 @@ http://gblee1987.tistory.com/35
 
 [KVM install on Cent](https://www.linuxtechi.com/install-kvm-hypervisor-on-centos-7-and-rhel-7/)
 
+
 ## Ansible ##
 
 [Setup](https://github.com/gnosia93/devops/blob/master/ansible.md)
@@ -125,8 +103,6 @@ https://code-maven.com/setup-for-learning-ansible
 ## Kubernetes ##
 
 https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux    -- 설치가이드.
-
-
 
 [Ansible Install](https://github.com/gnosia93/devops/blob/master/k8.md)
 
@@ -147,6 +123,7 @@ https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 
 -- 꼭 다 익혀야 한다.
 https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pipeline-kubernetes-part-1-overview
+
 
 ## Jenkins ##
 
@@ -174,8 +151,7 @@ https://github.com/gnosia93/devops/blob/master/docker.md
 https://github.com/gnosia93/devops/blob/master/ubuntu.md
 
 
-
-#### ocker Log 관리 ####
+#### docker Log 관리 ####
 
 아래는 docker 컨테이들의 기본 로그 파일 위치이다. 
 
@@ -185,6 +161,8 @@ root@startup:/var/lib/docker/containers# pwd
 
 ```
 http://egloos.zum.com/mcchae/v/11259352
+
+
 
 #### ORACLE JDK 받는 방법 ####
 ```
