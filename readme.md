@@ -13,6 +13,10 @@
 
 [MySQL 모니터링 Collectd + Graphite + Graphana on CentOS 7](https://github.com/gnosia93/devops/blob/master/graphite.md)
 
+[InfluxDB]
+
+[Prometeus]
+
 [그라파나(Grafana) 설치](https://github.com/gnosia93/devops/blob/master/grafana.md)
 
 
