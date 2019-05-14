@@ -13,9 +13,11 @@
 
 ### 2.1 시계열 저장소 ###
 
-[Graphite](https://github.com/gnosia93/devops/blob/master/graphite.md)
+[시계열DB 비교](https://db-engines.com/en/system/Graphite%3BInfluxDB%3BPrometheus)
 
 [InfluxDB]
+
+[Graphite](https://github.com/gnosia93/devops/blob/master/graphite.md)
 
 [Prometeus]
 
