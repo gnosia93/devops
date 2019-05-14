@@ -1,4 +1,4 @@
-# Collectd 설정 #
+## Collectd 설치 및 설정 ##
 
 아래와 같이 collectd 와 collectd mysql plugin 을 설치해 준다. 
 
@@ -14,6 +14,10 @@ collectd.conf 파일을 열어 적당히 편집해 준다.
 ```
 $ sudo vi /etc/collectd.conf
 ```
+
+## MySQL Metric 수집 ##
+
+
 
 
 ## 레퍼런스 ##
