@@ -1,5 +1,7 @@
 ## 설치 ##
 
+https://grafana.com/docs/installation/rpm/
+
 ```
 $ sudo yum install https://dl.grafana.com/oss/release/grafana-5.4.2-1.x86_64.rpm
 $ sudo yum install initscripts 
@@ -22,11 +24,13 @@ $ sudo firewall-cmd --reload
 
 ## 설정 ##
 
+https://grafana.com/docs/features/datasources/graphite/
+
 
 
 
 ## 레퍼런스 ##
 
-https://grafana.com/docs/installation/rpm/
+
 
 https://grafana.com/docs/
