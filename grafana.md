@@ -1,10 +1,13 @@
 ## 설치 ##
 
 ```
-$ wget https://grafanarel.s3.amazonaws.com/builds/grafana-4.1.2-1486989747.linux-x64.tar.gz
-$ tar zxvf grafana-4.1.2-1486989747.linux-x64.tar.gz
-$ cd grafana-4.1.2-1486989747
-$ bin/grafana-server
+$ sudo yum install https://dl.grafana.com/oss/release/grafana-5.4.2-1.x86_64.rpm
+$ sudo yum install initscripts urw-fonts
+
+$ systemctl daemon-reload
+$ systemctl start grafana-server
+$ systemctl status grafana-server
+$ sudo systemctl enable grafana-server.service
 
 $ sudo firewall-cmd --permanent --add-port=3000/tcp
 success
