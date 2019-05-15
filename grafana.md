@@ -2,7 +2,10 @@
 
 ```
 $ sudo yum install https://dl.grafana.com/oss/release/grafana-5.4.2-1.x86_64.rpm
-$ sudo yum install initscripts urw-fonts
+$ sudo yum install initscripts 
+$ sudo yum install fontconfig
+$ sudo yum install freetype*
+$ sudo yum install urw-fonts
 
 $ systemctl daemon-reload
 $ systemctl start grafana-server
