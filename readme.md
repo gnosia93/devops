@@ -4,7 +4,7 @@
 
 [SELinux Diable]()
 
-[Linux 방화벽]()
+[Linux 방화벽](https://github.com/gnosia93/devops/blob/master/linux-fw.md)
 
 [CentOS 7 강좌](http://blog.naver.com/PostView.nhn?blogId=hanajava&logNo=220793636099&parentCategoryNo=&categoryNo=55&viewDate=&isShowPopularPosts=false&from=postList)
 
