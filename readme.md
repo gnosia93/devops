@@ -21,7 +21,7 @@ https://db-engines.com/en/system/Graphite%3BInfluxDB%3BPrometheus
 https://hamait.tistory.com/440
 
 
-[InfluxDB]
+[InfluxDB](https://github.com/gnosia93/devops/blob/master/influxdb.md)
 
 [Graphite](https://github.com/gnosia93/devops/blob/master/graphite.md)
 
