@@ -19,3 +19,5 @@ tcp6       0      0 :::8088                 :::*                    LISTEN      
 ## 레퍼런스 ##
 
 https://www.popit.kr/influxdb_telegraf_grafana_1/
+
+https://www.popit.kr/influxdb_telegraf_grafana_2/
