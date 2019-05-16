@@ -10,8 +10,9 @@ tcp        0      0 127.0.0.1:8091          0.0.0.0:*               LISTEN      
 tcp6       0      0 :::8083                 :::*                    LISTEN      32063/influxd
 tcp6       0      0 :::8086                 :::*                    LISTEN      32063/influxd
 tcp6       0      0 :::8088                 :::*                    LISTEN      32063/influxd
-
 ```
+
+데이터 IN/OUT 용 http 통신은 8086 포트, 8083 포트는 어드민 페이지 접속 포트
 
 
 
