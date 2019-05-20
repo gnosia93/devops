@@ -29,8 +29,16 @@ https://grafana.com/docs/features/datasources/graphite/
 
 
 
+## InfluxDB 연동하여 MySQL Metric 그리기 ##
+
+https://www.popit.kr/influxdb_telegraf_grafana_3/
+
+
+
+
+
 ## 레퍼런스 ##
 
-
-
 https://grafana.com/docs/
+
+
