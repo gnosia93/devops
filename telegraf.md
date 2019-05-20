@@ -1,4 +1,9 @@
+## 설치 ##
 
+```
+$ wget https://dl.influxdata.com/telegraf/releases/telegraf-1.10.4-1.x86_64.rpm
+$ sudo yum localinstall telegraf-1.10.4-1.x86_64.rpm
+```
 
 
 ## 레퍼런스 ##
