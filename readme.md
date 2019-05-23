@@ -9,6 +9,29 @@
 [CentOS 7 강좌](http://blog.naver.com/PostView.nhn?blogId=hanajava&logNo=220793636099&parentCategoryNo=&categoryNo=55&viewDate=&isShowPopularPosts=false&from=postList)
 
 
+## 1. Provisioning & Configuration Management Tools ##
+
+### 1. Ansible ###
+
+[Setup](https://github.com/gnosia93/devops/blob/master/ansible.md)
+
+[Adhoc](https://github.com/gnosia93/devops/blob/master/ansible-adhoc.md)
+
+[Playbook](https://github.com/gnosia93/devops/blob/master/ansible-playbook.md)
+
+[Playbook Example](https://github.com/gnosia93/devops/blob/master/ansible-playbook-example.md)
+
+https://code-maven.com/setup-for-learning-ansible
+
+
+### 2. Terafrom ###
+
+
+
+### 3. Packer ###
+
+
+
 
 ## 2. 모니터링 ##
 
@@ -45,7 +68,7 @@ http://ganglia.sourceforge.net/
 [웹페이지 성능측정](https://devcoding.tistory.com/tag/%EC%84%B1%EB%8A%A5%EC%B8%A1%EC%A0%95)
 
 
-## CI-CD ##
+## 3. CI-CD ##
 
 * [JENKINS GitHub Webhook](https://github.com/gnosia93/devops/blob/master/jenkins-github-webhook.md)
 
@@ -56,9 +79,42 @@ http://ganglia.sourceforge.net/
 * [CD/CD on K8S /w Jenkins](https://medium.com/containerum/configuring-ci-cd-on-kubernetes-with-jenkins-89eab7234270)
 
 
-## Test ##
+* https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-tips
 
-https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-tips
+
+
+## 4. PAS ##
+
+### Docker ###
+
+https://github.com/gnosia93/devops/blob/master/docker.md
+
+
+
+### Kubernetes ###
+
+https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux    -- 설치가이드.
+
+[Ansible Install](https://github.com/gnosia93/devops/blob/master/k8.md)
+
+https://kubernetes.io/ko/docs/tutorials/
+
+https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
+
+
+### OpenShift ###
+
+* [인스톨](https://github.com/gnosia93/devops/blob/master/openshift-install.md)
+
+* [OKD](https://docs.okd.io/3.11/welcome/index.html)
+
+* [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
+
+
+
+-- 꼭 다 익혀야 한다.
+https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pipeline-kubernetes-part-1-overview
+
 
 
 # 로그 관리 #
@@ -98,60 +154,6 @@ http://gblee1987.tistory.com/35
 [KVM install on Cent](https://www.linuxtechi.com/install-kvm-hypervisor-on-centos-7-and-rhel-7/)
 
 
-## Provisioning & Configuration Management Tools ##
-
-### 1. Ansible ###
-
-[Setup](https://github.com/gnosia93/devops/blob/master/ansible.md)
-
-[Adhoc](https://github.com/gnosia93/devops/blob/master/ansible-adhoc.md)
-
-[Playbook](https://github.com/gnosia93/devops/blob/master/ansible-playbook.md)
-
-[Playbook Example](https://github.com/gnosia93/devops/blob/master/ansible-playbook-example.md)
-
-https://code-maven.com/setup-for-learning-ansible
-
-
-### 2. Terafrom ###
-
-
-
-### 3. Packer ###
-
-
-
-## PAS ##
-
-### Docker ###
-
-https://github.com/gnosia93/devops/blob/master/docker.md
-
-
-
-### Kubernetes ###
-
-https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux    -- 설치가이드.
-
-[Ansible Install](https://github.com/gnosia93/devops/blob/master/k8.md)
-
-https://kubernetes.io/ko/docs/tutorials/
-
-https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
-
-
-### OpenShift ###
-
-* [인스톨](https://github.com/gnosia93/devops/blob/master/openshift-install.md)
-
-* [OKD](https://docs.okd.io/3.11/welcome/index.html)
-
-* [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
-
-
-
--- 꼭 다 익혀야 한다.
-https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pipeline-kubernetes-part-1-overview
 
 
 ## CI / CD ##
