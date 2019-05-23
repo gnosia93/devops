@@ -98,7 +98,9 @@ http://gblee1987.tistory.com/35
 [KVM install on Cent](https://www.linuxtechi.com/install-kvm-hypervisor-on-centos-7-and-rhel-7/)
 
 
-## Ansible ##
+## Provisioning & Configuration Management Tools ##
+
+### 1. Ansible ###
 
 [Setup](https://github.com/gnosia93/devops/blob/master/ansible.md)
 
@@ -111,7 +113,23 @@ http://gblee1987.tistory.com/35
 https://code-maven.com/setup-for-learning-ansible
 
 
-## Kubernetes ##
+### 2. Terafrom ###
+
+
+
+### 3. Packer ###
+
+
+
+## PAS ##
+
+### Docker ###
+
+https://github.com/gnosia93/devops/blob/master/docker.md
+
+
+
+### Kubernetes ###
 
 https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux    -- 설치가이드.
 
@@ -122,7 +140,7 @@ https://kubernetes.io/ko/docs/tutorials/
 https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 
 
-## OpenShift ##
+### OpenShift ###
 
 * [인스톨](https://github.com/gnosia93/devops/blob/master/openshift-install.md)
 
@@ -136,7 +154,9 @@ https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pipeline-kubernetes-part-1-overview
 
 
-## Jenkins ##
+## CI / CD ##
+
+### 1. Jenkins ###
 
 https://jenkins.io/doc/book/pipeline/
 
@@ -147,49 +167,8 @@ http://wiki.rockplace.co.kr/pages/viewpage.action?pageId=3870355
 [젠킨스 JOB 모니터링 - catlight](https://catlight.io/)
 
 
-## SW Stack ##
-
-[Nginx](https://github.com/gnosia93/devops/blob/master/nginx.md)
-
-
-
-## Docker ##
-
-https://github.com/gnosia93/devops/blob/master/docker.md
-
 
 ## ubuntu ##
 https://github.com/gnosia93/devops/blob/master/ubuntu.md
-
-
-#### docker Log 관리 ####
-
-아래는 docker 컨테이들의 기본 로그 파일 위치이다. 
-
-```
-root@startup:/var/lib/docker/containers# pwd
-/var/lib/docker/containers
-
-```
-http://egloos.zum.com/mcchae/v/11259352
-
-
-
-#### ORACLE JDK 받는 방법 ####
-```
-FROM ubuntu:16.04
-
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends && \
-    apt-get --purge -y remove openjdk* && \
-    echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | debconf-set-selections && \
-    echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main" > /etc/apt/sources.list.d/webupd8team-java-trusty.list && \
-    apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886 && \
-    apt-get update && \
-    apt-get install -y --no-install-recommends oracle-java8-installer oracle-java8-set-default && \
-    apt-get install -y git curl maven vim && \
-    apt-get clean all
-
-```
 
 
