@@ -12,63 +12,10 @@ https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-configuratio
 
 각종 모듈에 대한 설정은 metricbeat.yml 파일에 등록은 할 수 있으나,
 
-/etc/metricbeat/modules.d 디렉토리에서 모듈별로 yml 설정 파일이 존재하므로,
-
-설정의 우선 순위는 modules.d 디렉토리 밑에 있는 yml 파일이 우선시 된다.
+/etc/metricbeat/modules.d 디렉토리에서 모듈별로 yml 설정 파일이 존재하는 경우 해당 디렉토리의 설정이 우선시 된다. 
 
 ```
 $ sudo vi /etc/metricbeats/metricbeat.yml
-
-10 #==========================  Modules configuration ============================
-11
-12 metricbeat.config.modules:
-13   # Glob pattern for configuration loading
-14   path: ${path.config}/modules.d/*.yml
-15
-16   # Set to true to enable config reloading
-17   reload.enabled: false
-18
-19   # Period on which files under path should be checked for changes
-20   #reload.period: 10s
-21
-22 #==========================  Modules configuration ============================
-23 metricbeat.modules:
-24
-25 #------------------------------- System Module -------------------------------
-26 - module: system
-27   metricsets:
-28     - cpu             # CPU usage
-29     - load            # CPU load averages
-30     - memory          # Memory usage
-31     - network         # Network IO
-32     - process         # Per process metrics
-33     - process_summary # Process summary
-34     - uptime          # System Uptime
-35     - socket_summary  # Socket summary
-36     - core           # Per CPU core usage
-37     - diskio         # Disk IO
-38     - filesystem     # File system usage for each mountpoint
-39     - fsstat         # File system summary metrics
-40     - raid           # Raid
-41     - socket         # Sockets and connection info (linux only)
-42   enabled: true
-43   period: 10s
-44   processes: ['.*']
-45
-46   # Configure the metric types that are included by these metricsets.
-47   cpu.metrics:  ["percentages"]  # The other available options are normalized_percentages and ticks.
-48   core.metrics: ["percentages"]  # The other available option is ticks.
-49
-50
-
-
-
-70
-71   # Configure the metric types that are included by these metricsets.
-72   cpu.metrics:  ["percentages"]  # The other available options are normalized_percentages and ticks.
-73   core.metrics: ["percentages"]  # The other available option is ticks.
-
-
 
 57 #============================== Kibana =====================================
 58
@@ -160,8 +107,7 @@ $ vi system.yml
 #    - raid
 #  raid.mount_point: '/'
 ```
-
-
+system.yml 파일에 시스템과 관련된 메트릭 수집 정보를 설정한다.
 
 
 
