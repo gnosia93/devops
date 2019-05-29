@@ -93,6 +93,14 @@ $ sudo vi /etc/metricbeats/metricbeat.yml
 ```
 $ sudo journalctl -u metricbeat
 
+5월 29 20:23:33 startup systemd[1]: metricbeat.service: main process exited, code=exited, status=1/FAILURE
+5월 29 20:23:33 startup systemd[1]: Unit metricbeat.service entered failed state.
+5월 29 20:23:33 startup systemd[1]: metricbeat.service failed.
+5월 29 20:23:33 startup systemd[1]: metricbeat.service holdoff time over, scheduling restart.
+5월 29 20:23:33 startup systemd[1]: Stopped Metricbeat is a lightweight shipper for metrics..
+5월 29 20:23:33 startup systemd[1]: Started Metricbeat is a lightweight shipper for metrics..
+5월 29 20:23:33 startup metricbeat[26737]: Exiting: error loading config file: yaml: line 49: mapping values are not allowed in this context
+
 ```
 
 
