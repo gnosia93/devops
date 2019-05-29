@@ -25,6 +25,14 @@ GET metricbeat-6.8.0-2019.05.29/_mapping
 ```
 
 
+## 조회 ##
+
+type (테이블) 에 대한 조회 
+
+```
+GET metricbeat-6.8.0-2019.05.29/doc/_search
+
+```
 
 
 ## 레퍼런스 ## 
