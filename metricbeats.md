@@ -110,6 +110,36 @@ $ vi system.yml
 system.yml 파일에 시스템과 관련된 메트릭 수집 정보를 설정한다.
 
 
+* mysql 에 대한 모니터링을 활성화 하고자 하는 경우 
+
+```
+$ sudo metricbeat modules enable mysql
+Enabled mysql
+
+$ pwd
+/etc/metricbeat/modules.d
+$ ls -la
+합계 144
+drwxr-xr-x 2 root root 4096  5월 29 22:15 .
+drwxr-xr-x 3 root root   95  5월 29 22:00 ..
+-rw-r--r-- 1 root root  203  5월 16 04:15 memcached.yml.disabled
+-rw-r--r-- 1 root root 1170  5월 16 04:15 mongodb.yml.disabled
+-rw-r--r-- 1 root root  215  5월 16 04:15 munin.yml.disabled
+-rw-r--r-- 1 root root  580  5월 16 04:15 mysql.yml
+-rw-r--r-- 1 root root  771  5월 29 22:12 system.yml
+-rw-r--r-- 1 root root  196  5월 16 04:15 traefik.yml.disabled
+-rw-r--r-- 1 root root  200  5월 16 04:15 uwsgi.yml.disabled
+-rw-r--r-- 1 root root  478  5월 16 04:15 vsphere.yml.disabled
+-rw-r--r-- 1 root root  736  5월 16 04:15 windows.yml.disabled
+-rw-r--r-- 1 root root  218  5월 16 04:15 zookeeper.yml.disabled
+```
+
+modules.d 디렉토리의 파일 리스트를 조회하면 mysql.yml 과 system.yml 파일을 확인할 수 있다.
+
+모니터링이 off 된 메트릭은 파일명이 disabled 로 끝난다. 
+
+
+
 
 ## 에러 발생시 로그 확인 ##
 ```
