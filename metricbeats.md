@@ -4,10 +4,41 @@
 $ sudo yum install metricbeat
 ```
 
-
-$ sudo vi /etc/metricbeats/metricbeat.yml
+## 설정 ##
 
 ```
+$ sudo vi /etc/metricbeats/metricbeat.yml
+
+47 #==========================  Modules configuration ============================
+48 metricbeat.modules:
+49
+50 #------------------------------- System Module -------------------------------
+51 - module: system
+52   metricsets:
+53     - cpu             # CPU usage
+54     - load            # CPU load averages
+55     - memory          # Memory usage
+56     - network         # Network IO
+57     - process         # Per process metrics
+58     - process_summary # Process summary
+59     - uptime          # System Uptime
+60     - socket_summary  # Socket summary
+61     - core           # Per CPU core usage
+62     - diskio         # Disk IO
+63     - filesystem     # File system usage for each mountpoint
+64     - fsstat         # File system summary metrics
+65     - raid           # Raid
+66     - socket         # Sockets and connection info (linux only)
+67   enabled: true
+68   period: 10s
+69   processes: ['.*']
+70
+71   # Configure the metric types that are included by these metricsets.
+72   cpu.metrics:  ["percentages"]  # The other available options are normalized_percentages and ticks.
+73   core.metrics: ["percentages"]  # The other available option is ticks.
+
+
+
 57 #============================== Kibana =====================================
 58
 59 # Starting with Beats version 6.0.0, the dashboards are loaded via the Kibana API.
@@ -55,6 +86,13 @@ $ sudo vi /etc/metricbeats/metricbeat.yml
 
 ```
 위와 같이 키바나 및 elasticsearch 엔드포인트를 등록하고, Processors 부분은 코멘트 처리한다. 
+
+
+```
+
+
+
+```
 
 
 
