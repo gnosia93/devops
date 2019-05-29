@@ -88,9 +88,10 @@ $ sudo vi /etc/metricbeats/metricbeat.yml
 위와 같이 키바나 및 elasticsearch 엔드포인트를 등록하고, Processors 부분은 코멘트 처리한다. 
 
 
+
+## 에러 발생시 로그 확인 ##
 ```
-
-
+$ sudo journalctl -u metricbeat
 
 ```
 
