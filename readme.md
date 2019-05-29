@@ -8,6 +8,8 @@
 
 [CentOS 7 강좌](http://blog.naver.com/PostView.nhn?blogId=hanajava&logNo=220793636099&parentCategoryNo=&categoryNo=55&viewDate=&isShowPopularPosts=false&from=postList)
 
+[XRDP](https://hellodaepang.tistory.com/1)
+
 
 ## 1. Provisioning & Configuration Management Tools ##
 
