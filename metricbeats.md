@@ -2,10 +2,11 @@
 
 ```
 $ sudo yum install metricbeat
+$ sudo vi /etc/metricbeats/metricbeat.yml
 
 ```
 
-## 정상 동작여부 확인 ##
+## elasticsearch index  ##
 
 ```
 $ curl localhost:9200/_cat/indices?v | grep metricbeat
