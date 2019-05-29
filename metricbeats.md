@@ -178,6 +178,8 @@ Loading dashboards (Kibana must be running and reachable)
 Loaded dashboards
 ```
 
+대시 보드를 설치하는 경우 기존에 키바나에 등록되어진 대시보드는 지워지므로, 설치후 명칭을 변경하도록 한다.
+
 
 ## 레퍼런스 ##
 
