@@ -6,6 +6,16 @@ $ sudo yum install metricbeat
 
 ## 설정 ##
 
+https://www.elastic.co/guide/en/beats/metricbeat/current/metricbeat-configuration.html
+
+키바나 및 일라스틱서치의 URL 을 등록하기 위해 metricbeat.yml 파일을 아래와 같이 설정한다. 
+
+각종 모듈에 대한 설정은 metricbeat.yml 파일에 등록은 할 수 있으나,
+
+/etc/metricbeat/modules.d 디렉토리에서 모듈별로 yml 설정 파일이 존재하므로,
+
+설정의 우선 순위는 modules.d 디렉토리 밑에 있는 yml 파일이 우선시 된다.
+
 ```
 $ sudo vi /etc/metricbeats/metricbeat.yml
 
@@ -107,6 +117,51 @@ $ sudo vi /etc/metricbeats/metricbeat.yml
 
 ```
 위와 같이 키바나 및 elasticsearch 엔드포인트를 등록하고, Processors 부분은 코멘트 처리한다. 
+
+
+```
+$ cd /etc/metricbeat/modules.d
+$ vi system.yml
+
+- module: system
+  period: 300s
+  metricsets:
+    - cpu
+    - load
+    - memory
+    - network
+#    - process
+#    - process_summary
+#    - socket_summary
+    #- core
+    - diskio
+    #- socket
+  process.include_top_n:
+    by_cpu: 5      # include top 5 processes by CPU
+    by_memory: 5   # include top 5 processes by memory
+
+- module: system
+  period: 1m
+  metricsets:
+    - filesystem
+    - fsstat
+  processors:
+  - drop_event.when.regexp:
+      system.filesystem.mount_point: '^/(sys|cgroup|proc|dev|etc|host|lib)($|/)'
+
+- module: system
+  period: 15m
+  metricsets:
+    - uptime
+
+#- module: system
+#  period: 5m
+#  metricsets:
+#    - raid
+#  raid.mount_point: '/'
+```
+
+
 
 
 
