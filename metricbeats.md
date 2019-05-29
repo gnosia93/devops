@@ -21,6 +21,9 @@ $ curl localhost:9200/_cat/indices?v | grep metricbeat
 
 ```
 $ sudo metricbeat setup --dashboards
+Loading dashboards (Kibana must be running and reachable)
+
+Loaded dashboards
 ```
 
 
