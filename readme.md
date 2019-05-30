@@ -159,11 +159,8 @@ https://aws.amazon.com/ko/certification/certification-prep/
 
 
 
-## JVM 모니터링 ##
+## 레퍼런스 ##
 
-https://github.com/scouter-project/scouter
-
-http://gblee1987.tistory.com/35
-
+https://12factor.net/
 
 
