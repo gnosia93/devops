@@ -68,6 +68,14 @@ http://ganglia.sourceforge.net/
 
 ## 3. CI-CD ##
 
+• Continuous Integration – Engineers should check in code frequently
+so that incremental improvements are available for review and testing as
+quickly as possible.
+• Continuous Build and Delivery – The process of building code
+that’s been checked in and delivering it to production should be
+automated so that engineers can release code without manual
+intervention.
+
 ### Jenkins ###
 
 * [JENKINS GitHub Webhook](https://github.com/gnosia93/devops/blob/master/jenkins-github-webhook.md)
