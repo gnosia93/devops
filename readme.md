@@ -1,15 +1,6 @@
-## 리눅스 Command ##
+## DevOps Overview ##
 
-[YUM](https://github.com/gnosia93/devops/blob/master/linux-yum.md)
-
-[SELinux Diable]()
-
-[Linux 방화벽](https://github.com/gnosia93/devops/blob/master/linux-fw.md)
-
-[CentOS 7 강좌](http://blog.naver.com/PostView.nhn?blogId=hanajava&logNo=220793636099&parentCategoryNo=&categoryNo=55&viewDate=&isShowPopularPosts=false&from=postList)
-
-[XRDP](https://hellodaepang.tistory.com/1)
-
+http://www.itworld.co.kr/news/118329
 
 ## 1. Provisioning & Configuration Management Tools ##
 
@@ -25,13 +16,10 @@
 
 https://code-maven.com/setup-for-learning-ansible
 
-
 ### 2. Terafrom ###
 
 
-
 ### 3. Packer ###
-
 
 
 
@@ -80,6 +68,8 @@ http://ganglia.sourceforge.net/
 
 ## 3. CI-CD ##
 
+### Jenkins ###
+
 * [JENKINS GitHub Webhook](https://github.com/gnosia93/devops/blob/master/jenkins-github-webhook.md)
 
 * [JENKINS PipeLine](https://github.com/gnosia93/devops/blob/master/jenkins-pipeline.md)
@@ -88,9 +78,25 @@ http://ganglia.sourceforge.net/
 
 * [CD/CD on K8S /w Jenkins](https://medium.com/containerum/configuring-ci-cd-on-kubernetes-with-jenkins-89eab7234270)
 
+https://jenkins.io/doc/book/pipeline/
+
+http://wiki.rockplace.co.kr/pages/viewpage.action?pageId=3870355
+
+[젠킨스튜토리얼](https://www.youtube.com/watch?v=89yWXXIOisk)
+
+[젠킨스 JOB 모니터링 - catlight](https://catlight.io/)
+
 
 * https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-tips
 
+
+### Coding ###
+
+Python
+
+Bash
+
+JAVA
 
 
 ## 4. PAS ##
@@ -98,8 +104,6 @@ http://ganglia.sourceforge.net/
 ### Docker ###
 
 https://github.com/gnosia93/devops/blob/master/docker.md
-
-
 
 ### Kubernetes ###
 
@@ -111,7 +115,6 @@ https://kubernetes.io/ko/docs/tutorials/
 
 https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 
-
 ### OpenShift ###
 
 * [인스톨](https://github.com/gnosia93/devops/blob/master/openshift-install.md)
@@ -120,42 +123,31 @@ https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 
 * [OpenShift Youtube](https://www.youtube.com/user/rhopenshift/videos)
 
-
-
 -- 꼭 다 익혀야 한다.
 https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pipeline-kubernetes-part-1-overview
 
 
+## Public Cloud ##
 
-# 로그 관리 #
+- AWS
 
-logback 에서 kafka 로 메시지 보내기. 
+- GCP 
 
-http://gyrfalcon.tistory.com/entry/Kafka-Kafka%EB%A1%9C-Log%EB%A5%BC-%EB%B3%B4%EB%82%B4%EB%8A%94-%EB%B0%A9%EB%B2%95%EB%93%A4
-
-http://goddaehee.tistory.com/45
-
-[E.L.K Install](https://github.com/gnosia93/devops/blob/master/e.l.k.md)
-
-[ElasticSearch Admin](https://github.com/gnosia93/devops/blob/master/elastic-admin.md)
+- AZure
 
 
 
-아키텍처..
-https://medium.com/chequer/elkr-elasticsearch-logstash-kibana-redis-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%A1%9C%EA%B7%B8%EB%B6%84%EC%84%9D-%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-f3dd9dfae622
+## 리눅스 Admin ##
 
+[YUM](https://github.com/gnosia93/devops/blob/master/linux-yum.md)
 
+[SELinux Diable]()
 
+[Linux 방화벽](https://github.com/gnosia93/devops/blob/master/linux-fw.md)
 
-## JVM 모니터링 ##
+[CentOS 7 강좌](http://blog.naver.com/PostView.nhn?blogId=hanajava&logNo=220793636099&parentCategoryNo=&categoryNo=55&viewDate=&isShowPopularPosts=false&from=postList)
 
-https://github.com/scouter-project/scouter
-
-http://gblee1987.tistory.com/35
-
-
-
-## Linux Admin ##
+[XRDP](https://hellodaepang.tistory.com/1)
 
 [Centos](https://github.com/gnosia93/devops/blob/master/linux-centos.md)
 
@@ -165,22 +157,11 @@ http://gblee1987.tistory.com/35
 
 
 
+## JVM 모니터링 ##
 
-## CI / CD ##
+https://github.com/scouter-project/scouter
 
-### 1. Jenkins ###
+http://gblee1987.tistory.com/35
 
-https://jenkins.io/doc/book/pipeline/
-
-http://wiki.rockplace.co.kr/pages/viewpage.action?pageId=3870355
-
-[젠킨스튜토리얼](https://www.youtube.com/watch?v=89yWXXIOisk)
-
-[젠킨스 JOB 모니터링 - catlight](https://catlight.io/)
-
-
-
-## ubuntu ##
-https://github.com/gnosia93/devops/blob/master/ubuntu.md
 
 
