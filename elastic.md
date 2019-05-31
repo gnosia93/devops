@@ -30,7 +30,16 @@ GET metricbeat-6.8.0-2019.05.29/_mapping
 type (테이블) 에 대한 조회 
 
 ```
-GET metricbeat-6.8.0-2019.05.29/doc/_search
+GET metricbeat-7.1.0-2019.05.31/_search?pretty
+{
+  "query": {
+    "match_all": {}
+  },
+  "sort": {
+    "@timestamp": "desc"
+  },
+  "size": 1000
+}
 
 ```
 
