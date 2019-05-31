@@ -27,6 +27,8 @@ GET metricbeat-6.8.0-2019.05.29/_mapping
 
 ## 조회 ##
 
+https://bakyeono.net/post/2016-08-20-elasticsearch-querydsl-basic.html
+
 
 - 시간순으로 정렬하여 1000개만 출력할 경우, size 는 명시적으로 설정하지 않는 경우 10 이다. 
 
