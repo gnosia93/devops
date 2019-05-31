@@ -142,6 +142,8 @@ https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pip
 
 https://aws.amazon.com/ko/certification/certification-prep/
 
+https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
+
 - GCP 
 
 - AZure
