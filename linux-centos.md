@@ -1,5 +1,7 @@
 ### firewalld ###
 
+https://linuxhint.com/list_open_ports_firewalld/
+
 ```
 $ systemctl status firewalld
 ● firewalld.service - firewalld - dynamic firewall daemon
