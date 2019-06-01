@@ -168,7 +168,7 @@ https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
 
 [KVM install on Cent](https://www.linuxtechi.com/install-kvm-hypervisor-on-centos-7-and-rhel-7/)
 
-
+[Linux HW]https://eungbean.github.io/2018/08/28/Ubuntu-system-check/
 
 ## 레퍼런스 ##
 
