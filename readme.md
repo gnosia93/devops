@@ -150,7 +150,18 @@ https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
 
 
 
-## 리눅스 Admin ##
+## OS Admin ##
+
+[Centos](https://github.com/gnosia93/devops/blob/master/linux-centos.md)
+
+[Ubuntu]
+
+[Windows]
+
+---
+
+
+
 
 [YUM](https://github.com/gnosia93/devops/blob/master/linux-yum.md)
 
@@ -162,7 +173,7 @@ https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
 
 [XRDP](https://hellodaepang.tistory.com/1)
 
-[Centos](https://github.com/gnosia93/devops/blob/master/linux-centos.md)
+
 
 [Ubuntu](https://github.com/gnosia93/devops/blob/master/linux-ubuntu.md)
 
