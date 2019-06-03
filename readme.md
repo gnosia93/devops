@@ -161,6 +161,10 @@ https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
 
 [Windows]
 
+SNMP  --  https://originalchoi.tistory.com/23
+
+
+
 ---
 
 
