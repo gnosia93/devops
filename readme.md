@@ -155,6 +155,10 @@ https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
 
 - AZure
 
+## Automation ##
+
+[Python](https://github.com/gnosia93/devops/blob/master/python.md)
+
 
 
 ## OS Admin ##
