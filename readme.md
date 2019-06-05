@@ -137,11 +137,7 @@ https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pip
 
 ## Public Cloud ##
 
-- AWS
-
-https://aws.amazon.com/ko/certification/certification-prep/
-
-https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
+- [AWS](https://github.com/gnosia93/devops/blob/master/aws.md)
 
 - GCP 
 
