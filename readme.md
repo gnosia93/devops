@@ -84,6 +84,7 @@ that’s been checked in and delivering it to production should be
 automated so that engineers can release code without manual
 intervention.
 
+
 ### Jenkins ###
 
 * [JENKINS GitHub Webhook](https://github.com/gnosia93/devops/blob/master/jenkins-github-webhook.md)
@@ -104,15 +105,6 @@ http://wiki.rockplace.co.kr/pages/viewpage.action?pageId=3870355
 
 
 * https://martinfowler.com/articles/microservice-testing/#testing-end-to-end-tips
-
-
-### Coding ###
-
-Python
-
-Bash
-
-JAVA
 
 
 ## 4. PAS ##
@@ -157,6 +149,8 @@ https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
 
 ## Automation ##
 
+[VI](https://github.com/gnosia93/devops/blob/master/vi.cmd)
+
 [Python](https://github.com/gnosia93/devops/blob/master/python.md)
 
 
@@ -195,6 +189,8 @@ SNMP  --  https://originalchoi.tistory.com/23
 [KVM install on Cent](https://www.linuxtechi.com/install-kvm-hypervisor-on-centos-7-and-rhel-7/)
 
 [Linux HW]https://eungbean.github.io/2018/08/28/Ubuntu-system-check/
+
+
 
 ## 레퍼런스 ##
 
