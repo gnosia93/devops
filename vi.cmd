@@ -1,7 +1,6 @@
 ## .VIMRC 파일에 설정하기 ##
 
 $ cd
-
 $ vi .vimrc
 
 ```
