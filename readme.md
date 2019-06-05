@@ -31,38 +31,38 @@ https://code-maven.com/setup-for-learning-ansible
 
 [시계열DB 비교]
 
-https://db-engines.com/en/system/Graphite%3BInfluxDB%3BPrometheus
+- https://db-engines.com/en/system/Graphite%3BInfluxDB%3BPrometheus
 
-https://hamait.tistory.com/440
+- https://hamait.tistory.com/440
 
 
-[InfluxDB](https://github.com/gnosia93/devops/blob/master/influxdb.md)
+- [InfluxDB](https://github.com/gnosia93/devops/blob/master/influxdb.md)
 
-[Graphite](https://github.com/gnosia93/devops/blob/master/graphite.md)
+- [Graphite](https://github.com/gnosia93/devops/blob/master/graphite.md)
 
-[Prometeus]
+- [Prometeus]
 
-[ElasticSearch](https://github.com/gnosia93/devops/blob/master/elastic.md)
+- [ElasticSearch](https://github.com/gnosia93/devops/blob/master/elastic.md)
 
 
 ### 2.2 Data Visualization ###
 
-[그라파나(Grafana) 설치](https://github.com/gnosia93/devops/blob/master/grafana.md)
+- [그라파나(Grafana) 설치](https://github.com/gnosia93/devops/blob/master/grafana.md)
 
-[키바나(Kibana)](https://github.com/gnosia93/devops/blob/master/kibana.md)
+- [키바나(Kibana)](https://github.com/gnosia93/devops/blob/master/kibana.md)
 
 
 ### 2.3 Data Gathering ###
 
-[Collectd](https://github.com/gnosia93/devops/blob/master/collectd.md)
+- [Collectd](https://github.com/gnosia93/devops/blob/master/collectd.md)
 
-[Telegraf](https://github.com/gnosia93/devops/blob/master/telegraf.md)
+- [Telegraf](https://github.com/gnosia93/devops/blob/master/telegraf.md)
 
-[MetricBeats](https://github.com/gnosia93/devops/blob/master/metricbeats.md)
+- [MetricBeats](https://github.com/gnosia93/devops/blob/master/metricbeats.md)
 
-[Logstash](https://github.com/gnosia93/devops/blob/master/logstash.md)
+- [Logstash](https://github.com/gnosia93/devops/blob/master/logstash.md)
 
-[SNMP](https://github.com/gnosia93/devops/blob/master/snmp.md)
+- [SNMP](https://github.com/gnosia93/devops/blob/master/snmp.md)
 
 
 
