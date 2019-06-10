@@ -195,3 +195,7 @@ SNMP  --  https://originalchoi.tistory.com/23
 https://12factor.net/
 
 
+## Interview Question ##
+
+https://blog.newrelic.com/technology/devops-interview-questions-tips/
+
