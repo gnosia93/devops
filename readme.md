@@ -65,7 +65,8 @@ https://code-maven.com/setup-for-learning-ansible
 - [SNMP](https://github.com/gnosia93/devops/blob/master/snmp.md)
 
 
-[Elastic Stack and Kafka](https://www.elastic.co/kr/blog/just-enough-kafka-for-the-elastic-stack-part1)
+[Elastic Stack and Kafka #1](https://www.elastic.co/kr/blog/just-enough-kafka-for-the-elastic-stack-part1)
+[Elastic Stack and Kafka #2](https://www.elastic.co/kr/blog/just-enough-kafka-for-the-elastic-stack-part2)
 
 -------
 
