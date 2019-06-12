@@ -151,7 +151,7 @@ https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pip
 
 [Python](https://github.com/gnosia93/devops/blob/master/python.md)
 
-[Shell]
+[Shell](https://github.com/gnosia93/devops/blob/master/shell.md)
 
 
 
