@@ -25,3 +25,5 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebS
 
 
 ```
+
+[EBS Mount](https://www.lesstif.com/pages/viewpage.action?pageId=36208717)
