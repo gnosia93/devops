@@ -32,3 +32,5 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebS
 ## AWS 전문가 되기 ##
 
 https://brunch.co.kr/@topasvga/233
+
+https://aws.amazon.com/ko/certification/certified-solutions-architect-professional/
