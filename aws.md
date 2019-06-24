@@ -27,3 +27,8 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebS
 ```
 
 [EBS Mount](https://www.lesstif.com/pages/viewpage.action?pageId=36208717)
+
+
+## AWS 전문가 되기 ##
+
+https://brunch.co.kr/@topasvga/233
