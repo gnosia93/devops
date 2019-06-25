@@ -39,3 +39,5 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebS
 * [AWS Welformed Architecture](https://www.aws.training/learningobject/curriculum?id=12049)
 
 * [Route 53](https://brunch.co.kr/@topasvga/228)
+
+* [HTTPS](https://brunch.co.kr/@topasvga/419)
