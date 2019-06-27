@@ -45,3 +45,5 @@ https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebS
 * [AWS 기초용어](https://brunch.co.kr/@topasvga/391)
 
 * [AWS AutoScaling](https://brunch.co.kr/@topasvga/480) (https://new93helloworld.tistory.com/174)
+
+* [IAM](https://www.youtube.com/watch?v=YQsK4MtsELU)
