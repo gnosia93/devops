@@ -141,7 +141,7 @@ https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pip
 
 - [AWS](https://github.com/gnosia93/devops/blob/master/aws.md)
 
-- GCP 
+- [GCP](https://github.com/gnosia93/devops/blob/master/gcp.md) 
 
 - AZure
 
