@@ -2,7 +2,6 @@
 
 * cloudlauncher == aws cloudformation 
 
-
 ## Certificate ##
 
 https://cloud.google.com/certification/
