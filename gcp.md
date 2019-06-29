@@ -2,6 +2,7 @@
 
 * cloudlauncher == aws cloudformation 
 
+* VPC subnets can span the zones that make up a region. This is beneficial because your solutions can incorporate fault tolerance without complicating your network topology.
 ## 강의 ##
 
 https://www.coursera.org/learn/gcp-fundamentals/home/welcome
