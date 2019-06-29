@@ -2,6 +2,11 @@
 
 * cloudlauncher == aws cloudformation 
 
+## 강의 ##
+
+https://www.coursera.org/learn/gcp-fundamentals/home/welcome
+
+
 ## Certificate ##
 
 https://cloud.google.com/certification/
