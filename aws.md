@@ -2,6 +2,10 @@ https://aws.amazon.com/ko/certification/certification-prep/
 
 https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
 
+## AmazonWebServices Videos ##
+
+https://www.youtube.com/user/AmazonWebServices/videos
+
 
 
 ### AWS Cloud Practitioner Essentials (Second Edition) (Korean) ###
