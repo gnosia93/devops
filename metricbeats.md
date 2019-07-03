@@ -181,6 +181,14 @@ Loaded dashboards
 대시 보드를 설치하는 경우 기존에 키바나에 등록되어진 대시보드는 지워지므로, 설치후 명칭을 변경하도록 한다.
 
 
+## 카프카 연동 ##
+
+https://stackoverflow.com/questions/56233663/metricbeat-kafka-logstash-configuration
+
+
+메트릭비트(서버) ---> 카프카 스트링 ---> logstash ---> elasticsearch.
+
+
 ## 레퍼런스 ##
 
 https://www.server-world.info/en/note?os=CentOS_7&p=elasticstack6&f=5
