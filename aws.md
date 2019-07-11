@@ -2,6 +2,10 @@
 * [2. ORACLE Migration using DMS](https://aws.amazon.com/ko/blogs/database/how-to-migrate-from-oracle-asm-to-aws-using-aws-dms/)
 
 
+https://www.youtube.com/watch?v=LX5lHYGFcnA .  --- vpc
+
+
+
 https://aws.amazon.com/ko/certification/certification-prep/
 
 https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
