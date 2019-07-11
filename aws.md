@@ -1,3 +1,7 @@
+* [1. AWS Putty 터널링](https://cloud.hosting.kr/aws-ec2/)
+* [2. ORACLE Migration using DMS](https://aws.amazon.com/ko/blogs/database/how-to-migrate-from-oracle-asm-to-aws-using-aws-dms/)
+
+
 https://aws.amazon.com/ko/certification/certification-prep/
 
 https://docs.aws.amazon.com/index.html?nc2=h_ql_doc
