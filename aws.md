@@ -1,6 +1,8 @@
 * [1. AWS Putty 터널링](https://cloud.hosting.kr/aws-ec2/)
 * [2. ORACLE Migration using DMS](https://aws.amazon.com/ko/blogs/database/how-to-migrate-from-oracle-asm-to-aws-using-aws-dms/)
 
+* [CertiExam WhitePaper](https://www.quora.com/What-are-the-important-whitepapers-to-study-for-AWS-Certified-Solutions-Architect-Associate-certification-exam)
+
 
 https://www.youtube.com/watch?v=LX5lHYGFcnA .  --- vpc
 
