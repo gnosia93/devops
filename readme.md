@@ -153,8 +153,6 @@ https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pip
 
 [Shell](https://github.com/gnosia93/devops/blob/master/shell.md)
 
-
-
 ## OS Admin ##
 
 [Centos](https://github.com/gnosia93/devops/blob/master/linux-centos.md)
@@ -164,6 +162,15 @@ https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pip
 [Windows]
 
 SNMP  --  https://originalchoi.tistory.com/23
+
+
+## OS 튜닝 ##
+
+[리눅스관리](https://www.linux.co.kr/linux/index.htm)
+
+[네트워크 커널튜닝](https://m.blog.naver.com/PostView.nhn?blogId=parkjy76&logNo=220874390930&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
+
+[메모리 튜닝](https://lklingling.tistory.com/entry/%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A0%A8-%EC%BB%A4%EB%84%90%ED%8A%9C%EB%8B%9D)
 
 
 
