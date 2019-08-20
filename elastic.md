@@ -1,3 +1,10 @@
+## Elastic Search 아키텍처 ##
+
+https://www.elastic.co/kr/blog/how-many-shards-should-i-have-in-my-elasticsearch-cluster
+
+
+
+
 ## 인덱스 ##
 
 일라스틱 서치의 인덱스의 RDBMS 의 데이터베이스와 같은 개념이다. 
