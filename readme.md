@@ -11,15 +11,17 @@ http://www.itworld.co.kr/news/118329
 
 ### 1. Ansible ###
 
-[Setup](https://github.com/gnosia93/devops/blob/master/ansible.md)
+- [Setup](https://github.com/gnosia93/devops/blob/master/ansible.md)
 
-[Adhoc](https://github.com/gnosia93/devops/blob/master/ansible-adhoc.md)
+- [Adhoc](https://github.com/gnosia93/devops/blob/master/ansible-adhoc.md)
 
-[Playbook](https://github.com/gnosia93/devops/blob/master/ansible-playbook.md)
+- [Playbook](https://github.com/gnosia93/devops/blob/master/ansible-playbook.md)
 
-[Playbook Example](https://github.com/gnosia93/devops/blob/master/ansible-playbook-example.md)
+- [Playbook Example](https://github.com/gnosia93/devops/blob/master/ansible-playbook-example.md)
 
-https://code-maven.com/setup-for-learning-ansible
+- https://code-maven.com/setup-for-learning-ansible
+
+- [ELK 프로비저닝 with Ansible](https://dzone.com/articles/deploying-the-elk-stack-with-ansible)
 
 
 
