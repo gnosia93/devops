@@ -23,6 +23,8 @@ http://www.itworld.co.kr/news/118329
 
 - [ELK 프로비저닝 with Ansible](https://dzone.com/articles/deploying-the-elk-stack-with-ansible)
 
+- [remote local yum](https://stackoverflow.com/questions/54449040/how-can-we-run-sudo-rpm-commands-using-ansible)
+
 
 
 ### 2. Terafrom ###
