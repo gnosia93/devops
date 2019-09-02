@@ -1,6 +1,8 @@
-## Google ##
+## DevOps Qualification ##
 
 https://github.com/gnosia93/devops/blob/master/google.md
+
+http://www.itworld.co.kr/news/118329
 
 
 ## DevOps Overview ##
