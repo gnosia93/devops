@@ -151,6 +151,14 @@ https://www.howtoforge.com/tutorial/centos-kubernetes-docker-cluster/
 https://www.linux.com/blog/learn/chapter/Intro-to-Kubernetes/2017/5/set-cicd-pipeline-kubernetes-part-1-overview
 
 
+### EKS ###
+
+https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/what-is-eks.html
+
+
+
+
+
 ## Public Cloud ##
 
 - [AWS](https://github.com/gnosia93/devops/blob/master/aws.md)
