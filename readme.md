@@ -131,6 +131,9 @@ https://github.com/gnosia93/devops/blob/master/docker.md
 
 ### Kubernetes ###
 
+- [K8S CentOS7 Intall](https://javacan.tistory.com/entry/k8s-install-in-centos7)
+
+
 https://linuxconfig.org/how-to-install-kubernetes-on-ubuntu-18-04-bionic-beaver-linux    -- 설치가이드.
 
 [Ansible Install](https://github.com/gnosia93/devops/blob/master/k8.md)
